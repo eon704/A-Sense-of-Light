@@ -9,6 +9,13 @@ public class Player : MonoBehaviour
     int activeBlobIndex;
     public List<Blob> blobs;
 
+    public CameraControl cameraControl;
+
+    public GameObject key;
+    public float distanceToPickUp;
+
+    public GameStatus gameStatus;
+
     public float moveDelay;
     float lastMoveTime;
 
@@ -20,8 +27,7 @@ public class Player : MonoBehaviour
         if (blobs.Count <= 0)
             Debug.LogError("No blobs added to player");
 
-        activeBlob = blobs[0];
-        activeBlobIndex = 0;
+        SelectBlob(0);
 
         foreach (Blob blob in blobs)
         {
@@ -32,12 +38,24 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space)) // Switch blob
+        // Check the key
+        CheckKey();
+
+        // Switch Blob
+        if (Input.GetKeyDown(KeyCode.Space)) 
         {
-            activeBlobIndex = (activeBlobIndex + 1) % blobs.Count;
-            activeBlob = blobs[activeBlobIndex];
+            SelectNextBlob();
             lastMoveTime = 0f;
-        } 
+        }
+
+        // Zoom out on hold
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            cameraControl.ZoomOut();
+        } else if (Input.GetKeyUp(KeyCode.LeftShift)) {
+            cameraControl.ZoomIn();
+        }
+
 
         if (Input.GetKeyUp(KeyCode.UpArrow) || Input.GetKeyUp(KeyCode.DownArrow) ||
             Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow))
@@ -65,5 +83,45 @@ public class Player : MonoBehaviour
             grid.MoveBlob(activeBlob, 1, 0);
             lastMoveTime = Time.time;
         }
+    }
+
+    void SelectNextBlob()
+    {
+        activeBlobIndex = (activeBlobIndex + 1) % blobs.Count;
+        activeBlob = blobs[activeBlobIndex];
+        cameraControl.UpdateFollowTarget(activeBlob.transform);
+    }
+
+    void SelectBlob(int index)
+    {
+        if (index >= blobs.Count)
+        {
+            Debug.LogWarning("Accessing out of range blob");
+            return;
+        }
+        activeBlob = blobs[index];
+        activeBlobIndex = index;
+        cameraControl.UpdateFollowTarget(activeBlob.transform);
+    }
+
+    void CheckKey()
+    {
+        if (key == null)
+        {
+            return;
+        }
+        // Check proximity to the Key
+        
+        if (GetSqrDistanceTo(key.transform.position) < distanceToPickUp)
+        {
+            Destroy(key);
+            Debug.Log("Found Key");
+            gameStatus.FoundKey();
+        }
+    }
+
+    float GetSqrDistanceTo(Vector3 target)
+    {
+        return (activeBlob.transform.position - target).sqrMagnitude;
     }
 }

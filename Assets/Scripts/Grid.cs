@@ -2,14 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[ExecuteInEditMode]
 public class Grid : MonoBehaviour
 {
-
     public int Width, Height;
     public GameObject GridCell;
-    public bool GenerateGrid = false;
     public Vector3 offset;
+    public GameStatus gameStatus;
 
     GameObject[,] gridArray;
     
@@ -20,12 +18,6 @@ public class Grid : MonoBehaviour
     {
         gridArray = new GameObject[Width, Height];
         cellArray = new Cell[Width, Height];
-        
-        if (GenerateGrid)
-        {
-            SpawnGrid();
-
-        }
 
         // Load Game objects
         for (int i = 0; i < transform.childCount; i++)
@@ -44,13 +36,10 @@ public class Grid : MonoBehaviour
             
         }
 
+        Debug.Log("Loaded grid");
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void MoveBlob(Blob blob, int h_units, int v_units)
     {
@@ -74,6 +63,11 @@ public class Grid : MonoBehaviour
             blob.x_coord += h_units;
             blob.y_coord += v_units;
             cellArray[new_x, new_y].SetOccupied();
+
+            if (cellArray[new_x, new_y].isPortalCell)
+            {
+                gameStatus.TryToOpenPortal();
+            }
 
         }
     }
@@ -113,39 +107,4 @@ public class Grid : MonoBehaviour
         return new Vector2(correctedVector.x, correctedVector.y);
     }
 
-    void SpawnGrid()
-    {
-        if (transform.childCount > 0)
-        {
-            Debug.LogError("Please delete all children of before generating a new grid");
-            return;
-        }
-
-        for (int j = 0; j < Height; j++)
-        {
-            for (int i = 0; i < Width; i++)
-            {
-                GameObject cellObject = Instantiate(GridCell, new Vector3(i, j, 0f) + offset, Quaternion.identity);
-                cellObject.name = "Cell (" + i + "," + j + ")";
-                cellObject.transform.parent = gameObject.transform;
-
-                gridArray[i, j] = cellObject;
-            }
-        }
-        GenerateGrid = false;
-
-        AssignCells();
-    }
-
-    void AssignCells()
-    {
-        for (int j = 0; j < Height; j++)
-        {
-            for (int i = 0; i < Width; i++)
-            {
-                
-                cellArray[i, j] = gridArray[i, j].GetComponent<Cell>();
-            }
-        }
-    }
 }

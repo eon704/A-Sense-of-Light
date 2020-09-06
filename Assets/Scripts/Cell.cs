@@ -6,6 +6,7 @@ public class Cell : MonoBehaviour
 {
 
     public bool isOccupied = false;
+    public bool isPortalCell = false;
 
     public void SetOccupied()
     {

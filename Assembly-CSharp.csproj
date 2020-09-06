@@ -59,6 +59,9 @@
     <Compile Include="Assets/Scripts/Blob.cs" />
     <Compile Include="Assets/Scripts/Grid.cs" />
     <Compile Include="Assets/Scripts/Cell.cs" />
+    <Compile Include="Assets/Scripts/CameraControl.cs" />
+    <Compile Include="Assets/Scripts/GridGenerator.cs" />
+    <Compile Include="Assets/Scripts/GameStatus.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/SpritePack/Spritesheet/spritesheetInfo.txt" />
@@ -677,6 +680,12 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

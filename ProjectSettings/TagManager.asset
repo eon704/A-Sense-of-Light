@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Key
   layers:
   - Default
   - TransparentFX
@@ -43,4 +44,10 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 2189428043
+    locked: 0
+  - name: Buildings
+    uniqueID: 1886337155
+    locked: 0
+  - name: Items
+    uniqueID: 915766335
     locked: 0
