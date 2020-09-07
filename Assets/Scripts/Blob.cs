@@ -21,4 +21,4 @@ public class Blob : MonoBehaviour
 
 }
 
-public enum Color { RED, ORANGE, YELLOW, GREEN, SKYBLUE, SEABLUE, PURPLE };
+public enum Color { RED, ORANGE, YELLOW, GREEN, SKYBLUE, SEABLUE, PURPLE, NONE };

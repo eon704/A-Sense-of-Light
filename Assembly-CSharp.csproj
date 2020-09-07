@@ -62,6 +62,9 @@
     <Compile Include="Assets/Scripts/CameraControl.cs" />
     <Compile Include="Assets/Scripts/GridGenerator.cs" />
     <Compile Include="Assets/Scripts/GameStatus.cs" />
+    <Compile Include="Assets/Dialog System/DialogueManager.cs" />
+    <Compile Include="Assets/Dialog System/Dialogue.cs" />
+    <Compile Include="Assets/Dialog System/DialogueTriger.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/SpritePack/Spritesheet/spritesheetInfo.txt" />
