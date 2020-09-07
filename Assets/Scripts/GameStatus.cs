@@ -8,17 +8,36 @@ public class GameStatus : MonoBehaviour
     public GameObject openPortal;
     public bool foundKey;
 
+    public DialogueManager dialogueManager;
     public DialogueTriger levelStartDialog;
     public DialogueTriger keyFoundDialog;
     public DialogueTriger levelCompleteDialog;
     public float dialogDelay;
+    public float exitDelay;
 
+    bool endLevel = false;
 
     private void Start()
     {
         foundKey = false;
+        endLevel = false;
 
         StartCoroutine(BeginDialog(levelStartDialog));
+    }
+
+    private void Update()
+    {
+        if (endLevel)
+        {
+            Debug.Log("Ending level");
+            if (dialogueManager.finished)
+            {
+                StartCoroutine(EndLevel());
+            }
+        } else
+        {
+            dialogueManager.finished = false;
+        }
     }
 
     IEnumerator BeginDialog(DialogueTriger dialog)
@@ -50,5 +69,13 @@ public class GameStatus : MonoBehaviour
         closedPortal.SetActive(false);
         openPortal.SetActive(true);
         StartCoroutine(BeginDialog(levelCompleteDialog));
+        endLevel = true;
     }
+
+    IEnumerator EndLevel()
+    {
+        yield return new WaitForSeconds(exitDelay);
+        LevelManager.LoadLevel("Levels");
+    }
+
 }

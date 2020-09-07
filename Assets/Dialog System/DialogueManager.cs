@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
-{ 	
+{
 	public Text nameText;
 	public Text dialogueText;
 
@@ -13,14 +13,18 @@ public class DialogueManager : MonoBehaviour
     //private Player player;
 	private Queue<string> sentences;
 
+	public bool finished;
+
     // Start is called before the first frame update
     void Start()
     {
         sentences = new Queue<string>();
+		finished = false;
     }
 	
 	public void StartDialogue(Dialogue dialogue){
 		animator.SetBool("IsOpen", true);
+		finished = false;
 
 		nameText.text = dialogue.name;
 
@@ -56,6 +60,7 @@ public class DialogueManager : MonoBehaviour
 
 	public void DisplayNextSentence() {
 		//player.BlockMovement();
+		finished = false;
 		if(sentences.Count == 0){
 			EndDialogue();
 			return;
@@ -64,17 +69,21 @@ public class DialogueManager : MonoBehaviour
 		string sentence = sentences.Dequeue();
 		StopAllCoroutines();
 		StartCoroutine(TypeSentence(sentence));
+		finished = false;
 	}
 
 	IEnumerator TypeSentence (string sentence) {
+		finished = false;
 		dialogueText.text = "";
 		foreach (char letter in sentence.ToCharArray()){
 			dialogueText.text += letter;
 			yield return null;
 		}
+		finished = false;
 	}
 
 	public void EndDialogue() {
 		animator.SetBool("IsOpen", false);
+		finished = true;
 	}
 }

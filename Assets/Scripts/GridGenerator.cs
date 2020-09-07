@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using UnityEditor;
+using UnityEngine.UI;
 
+#if UNITY_EDITOR
 public class EditModeFunctions : EditorWindow
 {
     public Grid grid;
@@ -45,3 +47,4 @@ public class EditModeFunctions : EditorWindow
 
     }
 }
+#endif
