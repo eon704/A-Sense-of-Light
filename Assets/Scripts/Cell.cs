@@ -6,15 +6,19 @@ public class Cell : MonoBehaviour
 {
 
     public bool isOccupied = false;
-    public bool isPortalCell = false;
     public bool triggerCell = false;
-    public Color color;
+
+    public bool isPortalCell = false;
+    public Portal portal;
 
     private void Start()
     {
-        if (!triggerCell)
-            color = Color.NONE;
+        if (!portal)
+            isPortalCell = false;
+        else
+            isPortalCell = true;
     }
+
 
     public void SetOccupied()
     {

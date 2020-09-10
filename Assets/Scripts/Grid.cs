@@ -10,20 +10,27 @@ public class Grid : MonoBehaviour
     public GameStatus gameStatus;
 
     GameObject[,] gridArray;
-    
+
+    public List<Blob> blobs;
+    List<Portal> portals;
+
     Cell[,] cellArray;
 
     // Start is called before the first frame update
     void Awake()
     {
+        if (blobs.Count <= 0)
+            Debug.LogError("No blobs added to player");
+
         gridArray = new GameObject[Width, Height];
         cellArray = new Cell[Width, Height];
+        portals = new List<Portal>();
 
         // Load Game objects
         for (int i = 0; i < transform.childCount; i++)
         {
-            GameObject cell = transform.GetChild(i).gameObject;
-            string coordinate = cell.name.Substring(6);
+            GameObject cellObject = transform.GetChild(i).gameObject;
+            string coordinate = cellObject.name.Substring(6);
             coordinate = coordinate.Remove(coordinate.Length - 1);
             string[] xy = coordinate.Split(',');
 
@@ -31,8 +38,12 @@ public class Grid : MonoBehaviour
             int y = int.Parse(xy[1]);
 
             //Debug.Log("X: " + x + "; Y:" + y);
-            gridArray[x, y] = cell;
-            cellArray[x, y] = cell.GetComponent<Cell>();
+            gridArray[x, y] = cellObject;
+            Cell cell = cellObject.GetComponent<Cell>();
+            cellArray[x, y] = cell;
+
+            if (cell.isPortalCell)
+                portals.Add(cell.portal);
             
         }
 
@@ -58,18 +69,37 @@ public class Grid : MonoBehaviour
         }
         else
         {
-            cellArray[x, y].UnsetOccupied();
+            Cell old_cell = cellArray[x, y];
+            old_cell.UnsetOccupied();
+            if (old_cell.isPortalCell)
+            {
+                old_cell.portal.Reset();
+            }
+
             blob.transform.position = new Vector3(new_x, new_y, 0) + offset;
             blob.x_coord += h_units;
             blob.y_coord += v_units;
-            cellArray[new_x, new_y].SetOccupied();
+            Cell new_cell = cellArray[new_x, new_y];
+            new_cell.SetOccupied();
 
-            if (cellArray[new_x, new_y].isPortalCell)
+            if (new_cell.isPortalCell)
             {
-                gameStatus.TryToOpenPortal();
+                new_cell.portal.CheckBlob(blob);
             }
-
+            CheckPortals();
         }
+    }
+
+    void CheckPortals()
+    {
+        foreach (Portal portal in portals)
+        {
+            if (!portal.activated)
+                return;
+        }
+
+        // All portals are activated
+        gameStatus.TryToOpenPortal();
     }
 
     public void SetBlobIndex(Blob blob)

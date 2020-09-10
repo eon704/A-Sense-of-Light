@@ -7,7 +7,8 @@ public class Player : MonoBehaviour
     public Grid grid;
     public Blob activeBlob;
     int activeBlobIndex;
-    public List<Blob> blobs;
+
+    List<Blob> blobs;
 
     public CameraControl cameraControl;
 
@@ -22,10 +23,8 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        blobs = grid.blobs;
         lastMoveTime = Time.time;
-
-        if (blobs.Count <= 0)
-            Debug.LogError("No blobs added to player");
 
         SelectBlob(0);
 

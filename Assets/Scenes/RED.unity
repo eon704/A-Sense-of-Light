@@ -136,7 +136,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (18,1)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -167,9 +167,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &22098299
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,7 +183,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (17,4)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -214,9 +214,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &25973263
 GameObject:
   m_ObjectHideFlags: 0
@@ -230,7 +230,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (11,8)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -261,9 +261,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &28832244
 GameObject:
   m_ObjectHideFlags: 0
@@ -277,7 +277,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (11,5)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -308,9 +308,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &38456219
 GameObject:
   m_ObjectHideFlags: 0
@@ -324,7 +324,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (10,1)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -355,9 +355,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &41552048
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,7 +371,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (9,6)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -402,9 +402,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &45316327
 GameObject:
   m_ObjectHideFlags: 0
@@ -418,7 +418,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (6,7)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -449,9 +449,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &50697376
 GameObject:
   m_ObjectHideFlags: 0
@@ -465,7 +465,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (5,8)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -496,9 +496,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &66687094
 GameObject:
   m_ObjectHideFlags: 0
@@ -512,7 +512,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (14,1)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -543,9 +543,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &73680161
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,7 +559,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (14,0)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -590,9 +590,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &80192681
 GameObject:
   m_ObjectHideFlags: 0
@@ -606,7 +606,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (7,1)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -637,9 +637,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &122591230
 GameObject:
   m_ObjectHideFlags: 0
@@ -653,7 +653,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (9,5)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -684,9 +684,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &136580332
 GameObject:
   m_ObjectHideFlags: 0
@@ -700,7 +700,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (12,2)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -731,9 +731,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &141337437
 GameObject:
   m_ObjectHideFlags: 0
@@ -747,7 +747,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (17,2)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -778,9 +778,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &145681732
 GameObject:
   m_ObjectHideFlags: 0
@@ -794,7 +794,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (5,4)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -825,9 +825,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &153672635
 GameObject:
   m_ObjectHideFlags: 0
@@ -841,7 +841,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (10,8)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -872,20 +872,107 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
---- !u!114 &157001458 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9047864952339388669, guid: 1180aab2bab41401a9ff0c39274724d0, type: 3}
-  m_PrefabInstance: {fileID: 9047864952185880079}
+  isPortalCell: 0
+  portal: {fileID: 0}
+--- !u!1 &157001457
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 157001459}
+  - component: {fileID: 157001458}
+  - component: {fileID: 157001460}
+  m_Layer: 0
+  m_Name: RedBlob
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &157001458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157001457}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d12faf73de9c4d60b6615bc71e41c44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  color: 0
+  x_coord: 2
+  y_coord: 2
+--- !u!4 &157001459
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157001457}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.5, y: 3.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &157001460
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157001457}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -2105539253
+  m_SortingLayer: 2
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: c70a44c155aaa4447b5de76e75e9d0bb, type: 3}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.2, y: 0.2}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &158710178
 GameObject:
   m_ObjectHideFlags: 0
@@ -899,7 +986,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (4,3)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -930,9 +1017,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &165913135
 GameObject:
   m_ObjectHideFlags: 0
@@ -946,7 +1033,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (8,8)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -977,9 +1064,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &174269670
 GameObject:
   m_ObjectHideFlags: 0
@@ -1072,7 +1159,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (17,8)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1103,9 +1190,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &186291830
 GameObject:
   m_ObjectHideFlags: 0
@@ -1119,7 +1206,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (6,8)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1150,9 +1237,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &187367939
 GameObject:
   m_ObjectHideFlags: 0
@@ -1166,7 +1253,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (10,6)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1197,9 +1284,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &187691799
 GameObject:
   m_ObjectHideFlags: 0
@@ -1213,7 +1300,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (17,7)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1244,9 +1331,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &201786970
 GameObject:
   m_ObjectHideFlags: 0
@@ -1260,7 +1347,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (0,0)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1291,9 +1378,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &211579597
 GameObject:
   m_ObjectHideFlags: 0
@@ -1307,7 +1394,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (9,2)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1338,9 +1425,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &225851963
 GameObject:
   m_ObjectHideFlags: 0
@@ -1354,7 +1441,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (6,9)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1385,9 +1472,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &227201240
 GameObject:
   m_ObjectHideFlags: 0
@@ -1401,7 +1488,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (1,3)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1432,9 +1519,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &227340397
 GameObject:
   m_ObjectHideFlags: 0
@@ -1448,7 +1535,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (5,0)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1479,9 +1566,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &238168794
 GameObject:
   m_ObjectHideFlags: 0
@@ -1495,7 +1582,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (11,6)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1526,9 +1613,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &254874734
 GameObject:
   m_ObjectHideFlags: 0
@@ -1542,7 +1629,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (16,1)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1573,9 +1660,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &256027115
 GameObject:
   m_ObjectHideFlags: 0
@@ -1589,7 +1676,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (17,0)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1620,9 +1707,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &258311666
 GameObject:
   m_ObjectHideFlags: 0
@@ -1636,7 +1723,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (5,6)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1667,9 +1754,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &264960563
 GameObject:
   m_ObjectHideFlags: 0
@@ -1683,7 +1770,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (1,2)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1714,9 +1801,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &276766150
 GameObject:
   m_ObjectHideFlags: 0
@@ -1730,7 +1817,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (14,5)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1761,9 +1848,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &284582749
 GameObject:
   m_ObjectHideFlags: 0
@@ -1843,6 +1930,183 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 284582749}
   m_CullTransparentMesh: 0
+--- !u!1 &297631403
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 297631404}
+  - component: {fileID: 297631406}
+  - component: {fileID: 297631405}
+  m_Layer: 0
+  m_Name: Door
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &297631404
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297631403}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1400384050}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!483693784 &297631405
+TilemapRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297631403}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 1886337155
+  m_SortingLayer: 3
+  m_SortingOrder: 3
+  m_ChunkSize: {x: 32, y: 32, z: 32}
+  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_MaxChunkCount: 16
+  m_MaxFrameAge: 16
+  m_SortOrder: 0
+  m_Mode: 0
+  m_DetectChunkCullingBounds: 0
+  m_MaskInteraction: 0
+--- !u!1839735485 &297631406
+Tilemap:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297631403}
+  m_Enabled: 1
+  m_Tiles:
+  - first: {x: 16, y: 6, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 17, y: 6, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 18, y: 6, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  m_AnimatedTiles: {}
+  m_TileAssetArray:
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 9f52645b7c043406b80a3afc84f5d78a, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: bcca6a60300334467a100e9eab58cdcc, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 7cc12965754524a3bbf4ff893f0c5dcc, type: 2}
+  m_TileSpriteArray:
+  - m_RefCount: 1
+    m_Data: {fileID: -2381817432816295194, guid: 2bc03acff36494c56822d948416ca9a7, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -1491310041298017778, guid: 2bc03acff36494c56822d948416ca9a7, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 1373216363582915278, guid: 2bc03acff36494c56822d948416ca9a7, type: 3}
+  m_TileMatrixArray:
+  - m_RefCount: 3
+    m_Data:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_TileColorArray:
+  - m_RefCount: 3
+    m_Data: {r: 1, g: 1, b: 1, a: 1}
+  m_TileObjectToInstantiateArray: []
+  m_AnimationFrameRate: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Origin: {x: 0, y: 0, z: 0}
+  m_Size: {x: 19, y: 7, z: 1}
+  m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
+  m_TileOrientation: 0
+  m_TileOrientationMatrix:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
 --- !u!1 &320802283
 GameObject:
   m_ObjectHideFlags: 0
@@ -1856,7 +2120,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (6,2)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1887,9 +2151,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &323692789
 GameObject:
   m_ObjectHideFlags: 0
@@ -1903,7 +2167,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (7,8)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1934,9 +2198,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &341248092
 GameObject:
   m_ObjectHideFlags: 0
@@ -1950,7 +2214,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (12,6)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1981,9 +2245,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &352500719
 GameObject:
   m_ObjectHideFlags: 0
@@ -1997,7 +2261,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (13,1)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2028,9 +2292,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &361597771
 GameObject:
   m_ObjectHideFlags: 0
@@ -2176,7 +2440,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (12,5)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2207,9 +2471,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &405059897
 GameObject:
   m_ObjectHideFlags: 0
@@ -2223,7 +2487,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (12,3)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2254,9 +2518,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &410401339
 GameObject:
   m_ObjectHideFlags: 0
@@ -2270,7 +2534,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (19,5)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2301,9 +2565,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &419483842
 GameObject:
   m_ObjectHideFlags: 0
@@ -2317,7 +2581,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (3,3)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2348,9 +2612,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &423790242
 GameObject:
   m_ObjectHideFlags: 0
@@ -2364,7 +2628,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (15,1)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2395,9 +2659,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &448471285
 GameObject:
   m_ObjectHideFlags: 0
@@ -2411,7 +2675,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (2,7)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2442,9 +2706,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &457269592
 GameObject:
   m_ObjectHideFlags: 0
@@ -2458,7 +2722,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (11,3)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2489,9 +2753,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &461789056
 GameObject:
   m_ObjectHideFlags: 0
@@ -2505,7 +2769,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (3,5)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2536,9 +2800,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &476550330
 GameObject:
   m_ObjectHideFlags: 0
@@ -2552,7 +2816,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (19,2)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2583,9 +2847,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &482541824
 GameObject:
   m_ObjectHideFlags: 0
@@ -2599,7 +2863,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (8,3)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2630,9 +2894,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &486306007
 GameObject:
   m_ObjectHideFlags: 0
@@ -2646,7 +2910,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (2,0)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2677,9 +2941,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &490451585
 GameObject:
   m_ObjectHideFlags: 0
@@ -2693,7 +2957,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (0,5)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2724,9 +2988,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &491846938
 GameObject:
   m_ObjectHideFlags: 0
@@ -2740,7 +3004,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (17,6)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2771,9 +3035,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &500338108
 GameObject:
   m_ObjectHideFlags: 0
@@ -2787,7 +3051,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (2,1)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2818,9 +3082,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &515939976
 GameObject:
   m_ObjectHideFlags: 0
@@ -2834,7 +3098,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (9,7)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2865,9 +3129,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &518978620
 GameObject:
   m_ObjectHideFlags: 0
@@ -2914,7 +3178,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (14,7)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2945,173 +3209,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
---- !u!1 &527692850
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 527692851}
-  - component: {fileID: 527692853}
-  - component: {fileID: 527692852}
-  m_Layer: 0
-  m_Name: Door
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &527692851
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 527692850}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1400384050}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!483693784 &527692852
-TilemapRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 527692850}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1886337155
-  m_SortingLayer: 2
-  m_SortingOrder: 3
-  m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
-  m_MaxChunkCount: 16
-  m_MaxFrameAge: 16
-  m_SortOrder: 0
-  m_Mode: 0
-  m_DetectChunkCullingBounds: 0
-  m_MaskInteraction: 0
---- !u!1839735485 &527692853
-Tilemap:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 527692850}
-  m_Enabled: 1
-  m_Tiles:
-  - first: {x: 17, y: 6, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: 18, y: 6, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  m_AnimatedTiles: {}
-  m_TileAssetArray:
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 0e3a72396a4c841418d7bd2cfd69d7a8, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: c94bf3d35e2694944a5b1c4effda91b8, type: 2}
-  m_TileSpriteArray:
-  - m_RefCount: 1
-    m_Data: {fileID: -6562224168804847113, guid: 2bc03acff36494c56822d948416ca9a7, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 1248982716037829946, guid: 2bc03acff36494c56822d948416ca9a7, type: 3}
-  m_TileMatrixArray:
-  - m_RefCount: 2
-    m_Data:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-  m_TileColorArray:
-  - m_RefCount: 2
-    m_Data: {r: 1, g: 1, b: 1, a: 1}
-  m_TileObjectToInstantiateArray: []
-  m_AnimationFrameRate: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: 0, y: 0, z: 0}
-  m_Size: {x: 19, y: 7, z: 1}
-  m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
-  m_TileOrientation: 0
-  m_TileOrientationMatrix:
-    e00: 1
-    e01: 0
-    e02: 0
-    e03: 0
-    e10: 0
-    e11: 1
-    e12: 0
-    e13: 0
-    e20: 0
-    e21: 0
-    e22: 1
-    e23: 0
-    e30: 0
-    e31: 0
-    e32: 0
-    e33: 1
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &534376008
 GameObject:
   m_ObjectHideFlags: 0
@@ -3125,7 +3225,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (9,8)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -3156,9 +3256,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &547078411
 GameObject:
   m_ObjectHideFlags: 0
@@ -3172,7 +3272,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (5,9)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -3203,9 +3303,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &554809877
 GameObject:
   m_ObjectHideFlags: 0
@@ -3219,7 +3319,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (13,0)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -3250,9 +3350,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!114 &563993936 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 141632912761294814, guid: e6d6160c2bcb64681b6680e04b1f1f0c, type: 3}
@@ -3277,7 +3377,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (12,9)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -3308,9 +3408,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &577247993
 GameObject:
   m_ObjectHideFlags: 0
@@ -3324,7 +3424,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (13,6)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -3355,9 +3455,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &582888602
 GameObject:
   m_ObjectHideFlags: 0
@@ -3371,7 +3471,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (7,6)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -3402,9 +3502,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!114 &590485284 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8371090097135029658, guid: 68f0d2d52c4a54520952eccab09f4a0d, type: 3}
@@ -3416,6 +3516,103 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &607689808
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 607689810}
+  - component: {fileID: 607689809}
+  - component: {fileID: 607689811}
+  m_Layer: 0
+  m_Name: RedPortal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &607689809
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607689808}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 2129460457
+  m_SortingLayer: 1
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 3b4027f7b490e4d61be76e1bba20ae67, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &607689810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607689808}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 17.5, y: 5.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &607689811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607689808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 212dec2ff478a4f0283a260157930b4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activationColor: 0
+  activated: 0
 --- !u!1 &611414088
 GameObject:
   m_ObjectHideFlags: 0
@@ -3429,7 +3626,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (10,5)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -3460,9 +3657,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &629491610
 GameObject:
   m_ObjectHideFlags: 0
@@ -3476,7 +3673,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (9,3)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -3507,9 +3704,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &639553052
 GameObject:
   m_ObjectHideFlags: 0
@@ -3523,7 +3720,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (4,8)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -3554,9 +3751,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &653283438
 GameObject:
   m_ObjectHideFlags: 0
@@ -3591,6 +3788,8 @@ MonoBehaviour:
   GridCell: {fileID: 888679953529862977, guid: 042d47d9802f4489caffc0119c44eb43, type: 3}
   offset: {x: 0.5, y: 0.5, z: 0}
   gameStatus: {fileID: 1770537793}
+  blobs:
+  - {fileID: 157001458}
 --- !u!4 &653283440
 Transform:
   m_ObjectHideFlags: 0
@@ -3818,7 +4017,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (19,9)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -3849,9 +4048,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &672086063
 GameObject:
   m_ObjectHideFlags: 0
@@ -3865,7 +4064,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (19,8)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -3896,9 +4095,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &676373226
 GameObject:
   m_ObjectHideFlags: 0
@@ -3912,7 +4111,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (4,7)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -3943,9 +4142,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &677298178
 GameObject:
   m_ObjectHideFlags: 0
@@ -3982,8 +4181,8 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 1904712208}
-  m_Follow: {fileID: 1904712208}
+  m_LookAt: {fileID: 157001459}
+  m_Follow: {fileID: 157001459}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 6
@@ -4060,8 +4259,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grid: {fileID: 653283439}
   activeBlob: {fileID: 157001458}
-  blobs:
-  - {fileID: 157001458}
   cameraControl: {fileID: 677298181}
   key: {fileID: 1758338786}
   distanceToPickUp: 0.5
@@ -4094,7 +4291,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (15,3)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -4125,217 +4322,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
---- !u!1 &695187078
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 695187079}
-  - component: {fileID: 695187081}
-  - component: {fileID: 695187080}
-  m_Layer: 0
-  m_Name: Frame
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &695187079
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 695187078}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1400384050}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!483693784 &695187080
-TilemapRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 695187078}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1886337155
-  m_SortingLayer: 2
-  m_SortingOrder: 2
-  m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
-  m_MaxChunkCount: 16
-  m_MaxFrameAge: 16
-  m_SortOrder: 0
-  m_Mode: 0
-  m_DetectChunkCullingBounds: 0
-  m_MaskInteraction: 0
---- !u!1839735485 &695187081
-Tilemap:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 695187078}
-  m_Enabled: 1
-  m_Tiles:
-  - first: {x: 17, y: 6, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 3
-      m_TileSpriteIndex: 3
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: 18, y: 6, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: 17, y: 7, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: 18, y: 7, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: 17, y: 8, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: 18, y: 8, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  m_AnimatedTiles: {}
-  m_TileAssetArray:
-  - m_RefCount: 2
-    m_Data: {fileID: 11400000, guid: 49a0246a2bcc444c39b0d4e8d667e2d8, type: 2}
-  - m_RefCount: 2
-    m_Data: {fileID: 11400000, guid: 3a567ed7330c74a1c97e9ab0f3f559e9, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: e5ee1e9a10e7745d095510a8bfd0222b, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 993b5357481924ed1a902d817ad1ce93, type: 2}
-  m_TileSpriteArray:
-  - m_RefCount: 2
-    m_Data: {fileID: 8287939200895189589, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
-  - m_RefCount: 2
-    m_Data: {fileID: 6387106464778844918, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -5600564663126351305, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -6244110806093259769, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
-  m_TileMatrixArray:
-  - m_RefCount: 6
-    m_Data:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-  m_TileColorArray:
-  - m_RefCount: 6
-    m_Data: {r: 1, g: 1, b: 1, a: 1}
-  m_TileObjectToInstantiateArray: []
-  m_AnimationFrameRate: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: 0, y: 0, z: 0}
-  m_Size: {x: 19, y: 9, z: 1}
-  m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
-  m_TileOrientation: 0
-  m_TileOrientationMatrix:
-    e00: 1
-    e01: 0
-    e02: 0
-    e03: 0
-    e10: 0
-    e11: 1
-    e12: 0
-    e13: 0
-    e20: 0
-    e21: 0
-    e22: 1
-    e23: 0
-    e30: 0
-    e31: 0
-    e32: 0
-    e33: 1
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &698719176
 GameObject:
   m_ObjectHideFlags: 0
@@ -4349,7 +4338,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (19,7)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -4380,9 +4369,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &706589375
 GameObject:
   m_ObjectHideFlags: 0
@@ -4475,7 +4464,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (14,6)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -4506,9 +4495,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &748127941
 GameObject:
   m_ObjectHideFlags: 0
@@ -4599,7 +4588,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (12,7)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -4630,9 +4619,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &759915543
 GameObject:
   m_ObjectHideFlags: 0
@@ -4646,7 +4635,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (12,4)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -4677,9 +4666,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!224 &761540320 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8371090096618081067, guid: 68f0d2d52c4a54520952eccab09f4a0d, type: 3}
@@ -4703,7 +4692,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (2,9)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -4734,9 +4723,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1001 &774580447
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4819,7 +4808,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (4,9)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -4850,9 +4839,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &797606098
 GameObject:
   m_ObjectHideFlags: 0
@@ -4866,7 +4855,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (19,4)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -4897,9 +4886,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &808034054
 GameObject:
   m_ObjectHideFlags: 0
@@ -4913,7 +4902,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (3,1)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -4944,9 +4933,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &813569403
 GameObject:
   m_ObjectHideFlags: 0
@@ -4960,7 +4949,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (6,6)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -4991,9 +4980,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &813706722
 GameObject:
   m_ObjectHideFlags: 0
@@ -5007,7 +4996,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (8,7)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -5038,9 +5027,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &821080375
 GameObject:
   m_ObjectHideFlags: 0
@@ -5054,7 +5043,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (4,0)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -5085,9 +5074,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &828762358
 GameObject:
   m_ObjectHideFlags: 0
@@ -5101,7 +5090,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (6,5)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -5132,9 +5121,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &832731782
 GameObject:
   m_ObjectHideFlags: 0
@@ -5148,7 +5137,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (17,3)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -5179,9 +5168,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &865230846
 GameObject:
   m_ObjectHideFlags: 0
@@ -5195,7 +5184,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (2,8)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -5226,9 +5215,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &879502308
 GameObject:
   m_ObjectHideFlags: 0
@@ -5242,7 +5231,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (7,9)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -5273,9 +5262,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &879611537
 GameObject:
   m_ObjectHideFlags: 0
@@ -5289,7 +5278,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (15,7)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -5320,9 +5309,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &895447858
 GameObject:
   m_ObjectHideFlags: 0
@@ -5336,7 +5325,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (10,0)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -5367,9 +5356,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &898060654
 GameObject:
   m_ObjectHideFlags: 0
@@ -5383,7 +5372,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (13,8)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -5414,9 +5403,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &900091501
 GameObject:
   m_ObjectHideFlags: 0
@@ -5430,7 +5419,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (3,4)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -5461,9 +5450,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &912883840
 GameObject:
   m_ObjectHideFlags: 0
@@ -5477,7 +5466,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (2,6)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -5508,9 +5497,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &940010389
 GameObject:
   m_ObjectHideFlags: 0
@@ -5524,7 +5513,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (1,9)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -5555,9 +5544,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &963344808
 GameObject:
   m_ObjectHideFlags: 0
@@ -5571,7 +5560,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (16,3)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -5602,9 +5591,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &968870740
 GameObject:
   m_ObjectHideFlags: 0
@@ -5618,7 +5607,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (16,4)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -5649,9 +5638,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &979907777
 GameObject:
   m_ObjectHideFlags: 0
@@ -5665,7 +5654,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (1,1)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -5696,9 +5685,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &988563614
 GameObject:
   m_ObjectHideFlags: 0
@@ -5712,7 +5701,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (1,7)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -5743,9 +5732,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1015220262
 GameObject:
   m_ObjectHideFlags: 0
@@ -5838,7 +5827,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (17,5)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -5869,9 +5858,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 1
   triggerCell: 0
-  color: 0
+  isPortalCell: 1
+  portal: {fileID: 607689811}
 --- !u!1 &1023703527
 GameObject:
   m_ObjectHideFlags: 0
@@ -5885,7 +5874,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (15,0)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -5916,9 +5905,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1031270943
 GameObject:
   m_ObjectHideFlags: 3
@@ -6019,7 +6008,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (12,1)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -6050,9 +6039,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1071719874
 GameObject:
   m_ObjectHideFlags: 0
@@ -6066,7 +6055,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (16,5)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -6097,9 +6086,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1073730358
 GameObject:
   m_ObjectHideFlags: 0
@@ -6113,7 +6102,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (3,0)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -6144,9 +6133,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1076717645
 GameObject:
   m_ObjectHideFlags: 0
@@ -6160,7 +6149,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (0,4)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -6191,9 +6180,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1079048874
 GameObject:
   m_ObjectHideFlags: 0
@@ -6207,7 +6196,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (10,7)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -6238,9 +6227,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1080336664
 GameObject:
   m_ObjectHideFlags: 0
@@ -6254,7 +6243,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (6,1)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -6285,9 +6274,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1093152553
 GameObject:
   m_ObjectHideFlags: 0
@@ -6301,7 +6290,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (17,9)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -6332,9 +6321,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1100454939
 GameObject:
   m_ObjectHideFlags: 0
@@ -6348,7 +6337,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (4,4)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -6379,9 +6368,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1122076977
 GameObject:
   m_ObjectHideFlags: 0
@@ -6395,7 +6384,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (0,7)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -6426,9 +6415,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1133383467
 GameObject:
   m_ObjectHideFlags: 0
@@ -6442,7 +6431,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (17,1)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -6473,225 +6462,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
---- !u!1 &1141058036
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1141058037}
-  - component: {fileID: 1141058039}
-  - component: {fileID: 1141058038}
-  m_Layer: 0
-  m_Name: Roof
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1141058037
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1141058036}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1400384050}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!483693784 &1141058038
-TilemapRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1141058036}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1886337155
-  m_SortingLayer: 2
-  m_SortingOrder: 3
-  m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
-  m_MaxChunkCount: 16
-  m_MaxFrameAge: 16
-  m_SortOrder: 0
-  m_Mode: 0
-  m_DetectChunkCullingBounds: 0
-  m_MaskInteraction: 0
---- !u!1839735485 &1141058039
-Tilemap:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1141058036}
-  m_Enabled: 1
-  m_Tiles:
-  - first: {x: 17, y: 7, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 5
-      m_TileSpriteIndex: 5
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: 18, y: 7, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 4
-      m_TileSpriteIndex: 4
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: 17, y: 8, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 3
-      m_TileSpriteIndex: 3
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: 18, y: 8, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: 17, y: 9, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: 18, y: 9, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  m_AnimatedTiles: {}
-  m_TileAssetArray:
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 2aed584e746774ebb8149364a6985646, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 41ca1b0b2ee844458999ec7b1a1d8af6, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: e373f0e91d5394afdb09ed38f879a533, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: f953ed64c75c041918f5af79e3977592, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 09f5f66c5219c4159a83b90d37fd5b02, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: b93e67a5cf9f94b189072d4739186595, type: 2}
-  m_TileSpriteArray:
-  - m_RefCount: 1
-    m_Data: {fileID: -8699733507832707795, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 2165567760651952934, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1409585754037845231, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -4811761909817973084, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 8040738527934986686, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -4551713163088933829, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
-  m_TileMatrixArray:
-  - m_RefCount: 6
-    m_Data:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-  m_TileColorArray:
-  - m_RefCount: 6
-    m_Data: {r: 1, g: 1, b: 1, a: 1}
-  m_TileObjectToInstantiateArray: []
-  m_AnimationFrameRate: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: 0, y: 0, z: 0}
-  m_Size: {x: 19, y: 11, z: 1}
-  m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
-  m_TileOrientation: 0
-  m_TileOrientationMatrix:
-    e00: 1
-    e01: 0
-    e02: 0
-    e03: 0
-    e10: 0
-    e11: 1
-    e12: 0
-    e13: 0
-    e20: 0
-    e21: 0
-    e22: 1
-    e23: 0
-    e30: 0
-    e31: 0
-    e32: 0
-    e33: 1
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1143589970
 GameObject:
   m_ObjectHideFlags: 0
@@ -6705,7 +6478,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (4,6)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -6736,9 +6509,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1148012473
 GameObject:
   m_ObjectHideFlags: 0
@@ -6752,7 +6525,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (16,7)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -6782,10 +6555,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05310eeedb9a341c397a4a2ec14d9c21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isOccupied: 0
-  isPortalCell: 0
+  isOccupied: 1
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!114 &1148597111 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 141632912761294814, guid: e6d6160c2bcb64681b6680e04b1f1f0c, type: 3}
@@ -51680,7 +51453,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1886337155
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 3
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -51699,11 +51472,20 @@ Tilemap:
   m_GameObject: {fileID: 1153543076}
   m_Enabled: 1
   m_Tiles:
+  - first: {x: 16, y: 6, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
   - first: {x: 17, y: 6, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileIndex: 3
+      m_TileSpriteIndex: 3
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -51711,8 +51493,8 @@ Tilemap:
   - first: {x: 18, y: 6, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -51720,16 +51502,24 @@ Tilemap:
   m_AnimatedTiles: {}
   m_TileAssetArray:
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 7f12745b258194c8d82292fa1f1cbe48, type: 2}
+    m_Data: {fileID: 11400000, guid: 9f52645b7c043406b80a3afc84f5d78a, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: c39cb94efb12f4c66a45db84172186ba, type: 2}
+    m_Data: {fileID: 11400000, guid: 7cc12965754524a3bbf4ff893f0c5dcc, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 6dac38a4a0e354c92aca7d2dab077378, type: 2}
   m_TileSpriteArray:
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: -2125401476052641655, guid: 2bc03acff36494c56822d948416ca9a7, type: 3}
+    m_Data: {fileID: -2381817432816295194, guid: 2bc03acff36494c56822d948416ca9a7, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 8611787198206993738, guid: 2bc03acff36494c56822d948416ca9a7, type: 3}
+    m_Data: {fileID: 1373216363582915278, guid: 2bc03acff36494c56822d948416ca9a7, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -987593558250173950, guid: 2bc03acff36494c56822d948416ca9a7, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 2
+  - m_RefCount: 3
     m_Data:
       e00: 1
       e01: 0
@@ -51748,13 +51538,13 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 2
+  - m_RefCount: 3
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: 0, y: 0, z: 0}
-  m_Size: {x: 19, y: 7, z: 1}
+  m_Size: {x: 19, y: 8, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -51787,7 +51577,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (10,9)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -51818,9 +51608,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1172228612
 GameObject:
   m_ObjectHideFlags: 0
@@ -51834,7 +51624,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (18,6)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -51865,9 +51655,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1197717879
 GameObject:
   m_ObjectHideFlags: 0
@@ -51881,7 +51671,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (0,8)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -51912,9 +51702,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1214222575
 GameObject:
   m_ObjectHideFlags: 0
@@ -51928,7 +51718,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (3,9)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -51959,9 +51749,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1216663835
 GameObject:
   m_ObjectHideFlags: 0
@@ -51975,7 +51765,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (6,4)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -52006,9 +51796,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1220172341
 GameObject:
   m_ObjectHideFlags: 0
@@ -52022,7 +51812,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (12,8)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -52053,9 +51843,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1233630415
 GameObject:
   m_ObjectHideFlags: 0
@@ -52069,7 +51859,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (13,2)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -52100,9 +51890,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1233779305
 GameObject:
   m_ObjectHideFlags: 0
@@ -52116,7 +51906,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (0,3)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -52147,9 +51937,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1234485470
 GameObject:
   m_ObjectHideFlags: 0
@@ -52163,7 +51953,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (18,9)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -52194,9 +51984,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1259783248
 GameObject:
   m_ObjectHideFlags: 0
@@ -52210,7 +52000,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (11,0)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -52241,9 +52031,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1270700819
 GameObject:
   m_ObjectHideFlags: 0
@@ -52257,7 +52047,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (2,4)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -52288,9 +52078,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1293404114
 GameObject:
   m_ObjectHideFlags: 0
@@ -52304,7 +52094,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (18,8)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -52335,9 +52125,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1308446817
 GameObject:
   m_ObjectHideFlags: 0
@@ -52351,7 +52141,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (6,3)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -52382,9 +52172,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1325234362
 GameObject:
   m_ObjectHideFlags: 0
@@ -52398,7 +52188,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (8,4)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -52429,9 +52219,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1326402640
 GameObject:
   m_ObjectHideFlags: 0
@@ -54082,7 +53872,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (7,2)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -54113,9 +53903,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1334448107
 GameObject:
   m_ObjectHideFlags: 0
@@ -54129,7 +53919,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (4,5)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -54160,9 +53950,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1343110937
 GameObject:
   m_ObjectHideFlags: 0
@@ -54176,7 +53966,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (18,4)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -54207,9 +53997,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1344144644
 GameObject:
   m_ObjectHideFlags: 0
@@ -54223,7 +54013,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (19,3)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -54254,9 +54044,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1346264966
 GameObject:
   m_ObjectHideFlags: 0
@@ -54270,7 +54060,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (5,1)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -54301,9 +54091,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1359518940
 GameObject:
   m_ObjectHideFlags: 0
@@ -54317,7 +54107,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (4,1)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -54348,9 +54138,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1360238204
 GameObject:
   m_ObjectHideFlags: 0
@@ -54364,7 +54154,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (6,0)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -54395,9 +54185,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1001 &1397986720
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54492,9 +54282,9 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1141058037}
-  - {fileID: 695187079}
-  - {fileID: 527692851}
+  - {fileID: 2127079249}
+  - {fileID: 1870795585}
+  - {fileID: 297631404}
   m_Father: {fileID: 1503821201}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -54511,7 +54301,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (7,3)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -54542,9 +54332,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1418318273
 GameObject:
   m_ObjectHideFlags: 0
@@ -54558,7 +54348,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (18,3)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -54589,9 +54379,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1419470847
 GameObject:
   m_ObjectHideFlags: 0
@@ -54605,7 +54395,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (5,2)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -54636,9 +54426,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1420318870
 GameObject:
   m_ObjectHideFlags: 0
@@ -54652,7 +54442,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (7,7)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -54683,9 +54473,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1430370341
 GameObject:
   m_ObjectHideFlags: 0
@@ -54699,7 +54489,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (14,9)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -54730,9 +54520,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1431568637
 GameObject:
   m_ObjectHideFlags: 0
@@ -54746,7 +54536,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (9,4)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -54777,9 +54567,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1446233699
 GameObject:
   m_ObjectHideFlags: 0
@@ -54793,7 +54583,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (8,9)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -54824,9 +54614,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!114 &1454209580 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 278993339697343763, guid: 1cc914b81f5bd44248b7e9d38ffc7e9a, type: 3}
@@ -54851,7 +54641,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (4,2)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -54882,9 +54672,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1455368289
 GameObject:
   m_ObjectHideFlags: 0
@@ -54898,7 +54688,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (5,5)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -54929,9 +54719,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1462756775
 GameObject:
   m_ObjectHideFlags: 0
@@ -54945,7 +54735,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (15,9)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -54976,9 +54766,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1475827632
 GameObject:
   m_ObjectHideFlags: 0
@@ -54992,7 +54782,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (1,5)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -55023,9 +54813,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1476246376
 GameObject:
   m_ObjectHideFlags: 0
@@ -55039,7 +54829,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (10,2)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -55070,9 +54860,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1485587855
 GameObject:
   m_ObjectHideFlags: 0
@@ -55086,7 +54876,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (3,8)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -55117,9 +54907,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1493718882
 GameObject:
   m_ObjectHideFlags: 0
@@ -55133,7 +54923,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (2,2)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -55164,9 +54954,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1496893940
 GameObject:
   m_ObjectHideFlags: 0
@@ -55246,7 +55036,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (15,8)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -55277,9 +55067,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1503821199
 GameObject:
   m_ObjectHideFlags: 0
@@ -55341,7 +55131,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (1,0)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -55372,9 +55162,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1537994002
 GameObject:
   m_ObjectHideFlags: 0
@@ -55388,7 +55178,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (18,0)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -55419,9 +55209,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1550901829
 GameObject:
   m_ObjectHideFlags: 0
@@ -55435,7 +55225,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (19,1)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -55466,9 +55256,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1558542366
 GameObject:
   m_ObjectHideFlags: 0
@@ -55482,7 +55272,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (11,9)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -55513,9 +55303,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1560063106
 GameObject:
   m_ObjectHideFlags: 0
@@ -55529,7 +55319,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (13,9)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -55560,9 +55350,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1563208309
 GameObject:
   m_ObjectHideFlags: 0
@@ -55576,7 +55366,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (0,6)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -55607,9 +55397,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1566568094
 GameObject:
   m_ObjectHideFlags: 0
@@ -55623,7 +55413,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (14,3)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -55654,9 +55444,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1567304742
 GameObject:
   m_ObjectHideFlags: 0
@@ -55670,7 +55460,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (18,5)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -55701,9 +55491,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 1
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1572064481
 GameObject:
   m_ObjectHideFlags: 0
@@ -55717,7 +55507,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (15,2)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -55748,9 +55538,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1576882048
 GameObject:
   m_ObjectHideFlags: 0
@@ -55764,7 +55554,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (8,1)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -55795,9 +55585,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1582651646
 GameObject:
   m_ObjectHideFlags: 0
@@ -55811,7 +55601,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (3,6)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -55842,9 +55632,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1583688394
 GameObject:
   m_ObjectHideFlags: 0
@@ -55858,7 +55648,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (13,3)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -55889,9 +55679,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1586962285
 GameObject:
   m_ObjectHideFlags: 0
@@ -55980,7 +55770,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (7,0)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -56011,9 +55801,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1609246764
 GameObject:
   m_ObjectHideFlags: 0
@@ -56027,7 +55817,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (1,6)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -56058,9 +55848,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1633924559
 GameObject:
   m_ObjectHideFlags: 0
@@ -56074,7 +55864,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (7,4)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -56105,9 +55895,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1634378784
 GameObject:
   m_ObjectHideFlags: 0
@@ -56121,7 +55911,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (8,6)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -56152,9 +55942,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1657266709
 GameObject:
   m_ObjectHideFlags: 0
@@ -56269,7 +56059,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (15,5)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -56300,9 +56090,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1001 &1682466246
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56497,7 +56287,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000030517578}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0.000061035156, y: 0.000045776367}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1688429987
@@ -56545,7 +56335,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (19,0)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -56576,9 +56366,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1704825122
 GameObject:
   m_ObjectHideFlags: 0
@@ -56592,7 +56382,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (1,8)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -56623,9 +56413,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1712312401
 GameObject:
   m_ObjectHideFlags: 0
@@ -56639,7 +56429,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (16,6)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -56669,10 +56459,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05310eeedb9a341c397a4a2ec14d9c21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isOccupied: 0
-  isPortalCell: 0
+  isOccupied: 1
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1713851607
 GameObject:
   m_ObjectHideFlags: 0
@@ -57264,7 +57054,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (2,5)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -57295,9 +57085,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1725360407
 GameObject:
   m_ObjectHideFlags: 0
@@ -57311,7 +57101,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (11,4)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -57342,9 +57132,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1732926248
 GameObject:
   m_ObjectHideFlags: 0
@@ -57358,7 +57148,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (14,4)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -57389,9 +57179,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1739088814
 GameObject:
   m_ObjectHideFlags: 0
@@ -57405,7 +57195,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (10,4)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -57436,9 +57226,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1740280477
 GameObject:
   m_ObjectHideFlags: 0
@@ -57452,7 +57242,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (11,1)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -57483,9 +57273,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1751748565
 GameObject:
   m_ObjectHideFlags: 0
@@ -57499,7 +57289,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (8,0)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -57530,9 +57320,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1758338786
 GameObject:
   m_ObjectHideFlags: 0
@@ -57588,7 +57378,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 915766335
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 93daaff13a6bb4e45b91843444edfef3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -57628,7 +57418,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (16,0)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -57659,9 +57449,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1770537792
 GameObject:
   m_ObjectHideFlags: 0
@@ -57727,7 +57517,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (16,9)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -57758,9 +57548,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1778008543
 GameObject:
   m_ObjectHideFlags: 0
@@ -57774,7 +57564,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (16,2)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -57805,9 +57595,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1781723371
 GameObject:
   m_ObjectHideFlags: 0
@@ -57821,7 +57611,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (3,7)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -57852,9 +57642,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1785272766
 GameObject:
   m_ObjectHideFlags: 0
@@ -57868,7 +57658,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (9,1)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -57899,9 +57689,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1806774142
 GameObject:
   m_ObjectHideFlags: 0
@@ -57915,7 +57705,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (3,2)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -57946,9 +57736,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1811524089
 GameObject:
   m_ObjectHideFlags: 0
@@ -57962,7 +57752,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (18,2)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -57993,9 +57783,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1819878537
 GameObject:
   m_ObjectHideFlags: 0
@@ -58009,7 +57799,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (11,7)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -58040,9 +57830,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1821788902
 GameObject:
   m_ObjectHideFlags: 0
@@ -58056,7 +57846,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (13,5)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -58087,9 +57877,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1822925328
 GameObject:
   m_ObjectHideFlags: 0
@@ -58103,7 +57893,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (1,4)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -58134,9 +57924,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1859833347
 GameObject:
   m_ObjectHideFlags: 0
@@ -58150,7 +57940,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (18,7)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -58181,9 +57971,264 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
+--- !u!1 &1870795584
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1870795585}
+  - component: {fileID: 1870795587}
+  - component: {fileID: 1870795586}
+  m_Layer: 0
+  m_Name: Frame
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1870795585
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870795584}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1400384050}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!483693784 &1870795586
+TilemapRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870795584}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 1886337155
+  m_SortingLayer: 3
+  m_SortingOrder: 2
+  m_ChunkSize: {x: 32, y: 32, z: 32}
+  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_MaxChunkCount: 16
+  m_MaxFrameAge: 16
+  m_SortOrder: 0
+  m_Mode: 0
+  m_DetectChunkCullingBounds: 0
+  m_MaskInteraction: 0
+--- !u!1839735485 &1870795587
+Tilemap:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870795584}
+  m_Enabled: 1
+  m_Tiles:
+  - first: {x: 16, y: 6, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 5
+      m_TileSpriteIndex: 5
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 17, y: 6, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 3
+      m_TileSpriteIndex: 3
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 18, y: 6, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 16, y: 7, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 17, y: 7, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 4
+      m_TileSpriteIndex: 4
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 18, y: 7, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 16, y: 8, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 6
+      m_TileSpriteIndex: 6
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 17, y: 8, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 7
+      m_TileSpriteIndex: 7
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 18, y: 8, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 8
+      m_TileSpriteIndex: 8
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  m_AnimatedTiles: {}
+  m_TileAssetArray:
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 49a0246a2bcc444c39b0d4e8d667e2d8, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 3a567ed7330c74a1c97e9ab0f3f559e9, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: e5ee1e9a10e7745d095510a8bfd0222b, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: b2588409414344700b67d3f9c266e2dc, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 94f4b3ca17cfb43e4b000c232b61deb3, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 993b5357481924ed1a902d817ad1ce93, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: bd8c61c56671548a4b116456f18f43d4, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: ac40a28e15ae04aaba900a2f18362ac9, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 8b209c61a3f8c4aba9f6a336e54a46ea, type: 2}
+  m_TileSpriteArray:
+  - m_RefCount: 1
+    m_Data: {fileID: 8287939200895189589, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 6387106464778844918, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -5600564663126351305, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -2493798064684814634, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -3667087094926961610, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -6244110806093259769, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 1286253892489318535, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 1504587380507433675, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 6215953894602067998, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+  m_TileMatrixArray:
+  - m_RefCount: 9
+    m_Data:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_TileColorArray:
+  - m_RefCount: 9
+    m_Data: {r: 1, g: 1, b: 1, a: 1}
+  m_TileObjectToInstantiateArray: []
+  m_AnimationFrameRate: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Origin: {x: 0, y: 0, z: 0}
+  m_Size: {x: 19, y: 9, z: 1}
+  m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
+  m_TileOrientation: 0
+  m_TileOrientationMatrix:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
 --- !u!1 &1877775958
 GameObject:
   m_ObjectHideFlags: 0
@@ -58197,7 +58242,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (5,7)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -58228,9 +58273,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!114 &1879381881 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8371090095879102312, guid: 68f0d2d52c4a54520952eccab09f4a0d, type: 3}
@@ -58255,7 +58300,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (10,3)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -58286,14 +58331,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
---- !u!4 &1904712208 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9047864952339388668, guid: 1180aab2bab41401a9ff0c39274724d0, type: 3}
-  m_PrefabInstance: {fileID: 9047864952185880079}
-  m_PrefabAsset: {fileID: 0}
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1935216448
 GameObject:
   m_ObjectHideFlags: 0
@@ -58307,7 +58347,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (5,3)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -58338,9 +58378,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1942169684
 GameObject:
   m_ObjectHideFlags: 0
@@ -58354,7 +58394,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (11,2)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -58385,9 +58425,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1942479308
 GameObject:
   m_ObjectHideFlags: 0
@@ -58401,7 +58441,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (0,1)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -58432,9 +58472,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1947202576
 GameObject:
   m_ObjectHideFlags: 0
@@ -58448,7 +58488,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (9,9)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -58479,9 +58519,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1947504054
 GameObject:
   m_ObjectHideFlags: 0
@@ -58495,7 +58535,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (15,6)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -58526,9 +58566,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1956337122
 GameObject:
   m_ObjectHideFlags: 0
@@ -58542,7 +58582,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (16,8)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -58572,10 +58612,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05310eeedb9a341c397a4a2ec14d9c21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isOccupied: 0
-  isPortalCell: 0
+  isOccupied: 1
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1959013919
 GameObject:
   m_ObjectHideFlags: 0
@@ -58589,7 +58629,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (13,7)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -58620,9 +58660,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &1968080797
 GameObject:
   m_ObjectHideFlags: 0
@@ -58636,7 +58676,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (8,5)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -58667,9 +58707,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1001 &1990991602
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58754,7 +58794,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (2,3)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -58785,9 +58825,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &2005920182
 GameObject:
   m_ObjectHideFlags: 0
@@ -58801,7 +58841,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (9,0)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -58832,9 +58872,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &2024895696
 GameObject:
   m_ObjectHideFlags: 0
@@ -58848,7 +58888,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (7,5)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -58879,9 +58919,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &2034983396
 GameObject:
   m_ObjectHideFlags: 0
@@ -58952,7 +58992,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1886337155
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 2
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -58971,6 +59011,15 @@ Tilemap:
   m_GameObject: {fileID: 2034983396}
   m_Enabled: 1
   m_Tiles:
+  - first: {x: 16, y: 6, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 5
+      m_TileSpriteIndex: 5
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
   - first: {x: 17, y: 6, z: 0}
     second:
       serializedVersion: 2
@@ -58989,11 +59038,20 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
-  - first: {x: 17, y: 7, z: 0}
+  - first: {x: 16, y: 7, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 1
       m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 17, y: 7, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 4
+      m_TileSpriteIndex: 4
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -59007,11 +59065,20 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
+  - first: {x: 16, y: 8, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 6
+      m_TileSpriteIndex: 6
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
   - first: {x: 17, y: 8, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileIndex: 7
+      m_TileSpriteIndex: 7
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -59019,33 +59086,53 @@ Tilemap:
   - first: {x: 18, y: 8, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 8
+      m_TileSpriteIndex: 8
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 2
+  - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 49a0246a2bcc444c39b0d4e8d667e2d8, type: 2}
-  - m_RefCount: 2
+  - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 3a567ed7330c74a1c97e9ab0f3f559e9, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: e5ee1e9a10e7745d095510a8bfd0222b, type: 2}
   - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: b2588409414344700b67d3f9c266e2dc, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 94f4b3ca17cfb43e4b000c232b61deb3, type: 2}
+  - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 993b5357481924ed1a902d817ad1ce93, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: bd8c61c56671548a4b116456f18f43d4, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: ac40a28e15ae04aaba900a2f18362ac9, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 8b209c61a3f8c4aba9f6a336e54a46ea, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 2
+  - m_RefCount: 1
     m_Data: {fileID: 8287939200895189589, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
-  - m_RefCount: 2
+  - m_RefCount: 1
     m_Data: {fileID: 6387106464778844918, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -5600564663126351305, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
   - m_RefCount: 1
+    m_Data: {fileID: -2493798064684814634, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -3667087094926961610, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+  - m_RefCount: 1
     m_Data: {fileID: -6244110806093259769, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 1286253892489318535, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 1504587380507433675, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 6215953894602067998, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 6
+  - m_RefCount: 9
     m_Data:
       e00: 1
       e01: 0
@@ -59064,7 +59151,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 6
+  - m_RefCount: 9
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -59221,7 +59308,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (14,8)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -59252,9 +59339,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &2040235311
 GameObject:
   m_ObjectHideFlags: 0
@@ -59268,7 +59355,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (12,0)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -59299,9 +59386,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &2086443005
 GameObject:
   m_ObjectHideFlags: 0
@@ -59372,7 +59459,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1886337155
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 3
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -59391,11 +59478,20 @@ Tilemap:
   m_GameObject: {fileID: 2086443005}
   m_Enabled: 1
   m_Tiles:
+  - first: {x: 16, y: 7, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 6
+      m_TileSpriteIndex: 6
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
   - first: {x: 17, y: 7, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 5
-      m_TileSpriteIndex: 5
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -59403,13 +59499,31 @@ Tilemap:
   - first: {x: 18, y: 7, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 4
-      m_TileSpriteIndex: 4
+      m_TileIndex: 9
+      m_TileSpriteIndex: 9
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 16, y: 8, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 7
+      m_TileSpriteIndex: 7
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
   - first: {x: 17, y: 8, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 4
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 18, y: 8, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 3
@@ -59418,11 +59532,11 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
-  - first: {x: 18, y: 8, z: 0}
+  - first: {x: 16, y: 9, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 2
-      m_TileSpriteIndex: 2
+      m_TileSpriteIndex: 1
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -59430,8 +59544,8 @@ Tilemap:
   - first: {x: 17, y: 9, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileIndex: 8
+      m_TileSpriteIndex: 5
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -59439,41 +59553,57 @@ Tilemap:
   - first: {x: 18, y: 9, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 4
+      m_TileSpriteIndex: 8
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 2aed584e746774ebb8149364a6985646, type: 2}
+    m_Data: {fileID: 11400000, guid: de8668ed6fd944211b1c5aae4a73ae89, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 41ca1b0b2ee844458999ec7b1a1d8af6, type: 2}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: e373f0e91d5394afdb09ed38f879a533, type: 2}
+    m_Data: {fileID: 11400000, guid: 867c3dd5bc889426d8e80ecf50ae37ab, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 2aed584e746774ebb8149364a6985646, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: fd5332dc7537a486aa7f09288c798e7a, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: b93e67a5cf9f94b189072d4739186595, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: f953ed64c75c041918f5af79e3977592, type: 2}
   - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: eb7d80e4a33a24d388b363c0b58f73c5, type: 2}
+  - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 09f5f66c5219c4159a83b90d37fd5b02, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: b93e67a5cf9f94b189072d4739186595, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 1
-    m_Data: {fileID: -8699733507832707795, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 2165567760651952934, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: -1409585754037845231, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+    m_Data: {fileID: -4484168412711577263, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 8046459287365228126, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 1913047567609258352, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -7268892108697180036, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -4551713163088933829, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -4811761909817973084, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 8040738527934986686, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+    m_Data: {fileID: -8699733507832707795, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: -4551713163088933829, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+    m_Data: {fileID: 8040738527934986686, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 6
+  - m_RefCount: 9
     m_Data:
       e00: 1
       e01: 0
@@ -59492,7 +59622,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 6
+  - m_RefCount: 9
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -59542,7 +59672,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (8,2)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -59573,9 +59703,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &2109354889
 GameObject:
   m_ObjectHideFlags: 0
@@ -59589,7 +59719,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (0,9)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -59620,9 +59750,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &2112903811
 GameObject:
   m_ObjectHideFlags: 0
@@ -59636,7 +59766,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (14,2)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -59667,9 +59797,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &2115209886
 GameObject:
   m_ObjectHideFlags: 0
@@ -59683,7 +59813,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (15,4)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -59714,9 +59844,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &2120974719
 GameObject:
   m_ObjectHideFlags: 0
@@ -59730,7 +59860,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (13,4)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -59761,9 +59891,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
 --- !u!1 &2126148969
 GameObject:
   m_ObjectHideFlags: 0
@@ -59777,7 +59907,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (0,2)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -59808,9 +59938,268 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
+  isPortalCell: 0
+  portal: {fileID: 0}
+--- !u!1 &2127079248
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2127079249}
+  - component: {fileID: 2127079251}
+  - component: {fileID: 2127079250}
+  m_Layer: 0
+  m_Name: Roof
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2127079249
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2127079248}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1400384050}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!483693784 &2127079250
+TilemapRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2127079248}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 1886337155
+  m_SortingLayer: 3
+  m_SortingOrder: 3
+  m_ChunkSize: {x: 32, y: 32, z: 32}
+  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_MaxChunkCount: 16
+  m_MaxFrameAge: 16
+  m_SortOrder: 0
+  m_Mode: 0
+  m_DetectChunkCullingBounds: 0
+  m_MaskInteraction: 0
+--- !u!1839735485 &2127079251
+Tilemap:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2127079248}
+  m_Enabled: 1
+  m_Tiles:
+  - first: {x: 16, y: 7, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 6
+      m_TileSpriteIndex: 6
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 17, y: 7, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 5
+      m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 18, y: 7, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 9
+      m_TileSpriteIndex: 9
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 16, y: 8, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 7
+      m_TileSpriteIndex: 7
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 17, y: 8, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 4
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 18, y: 8, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 3
+      m_TileSpriteIndex: 3
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 16, y: 9, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 2
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 17, y: 9, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 8
+      m_TileSpriteIndex: 5
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 18, y: 9, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 4
+      m_TileSpriteIndex: 8
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  m_AnimatedTiles: {}
+  m_TileAssetArray:
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: de8668ed6fd944211b1c5aae4a73ae89, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 41ca1b0b2ee844458999ec7b1a1d8af6, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 867c3dd5bc889426d8e80ecf50ae37ab, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 2aed584e746774ebb8149364a6985646, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: fd5332dc7537a486aa7f09288c798e7a, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: b93e67a5cf9f94b189072d4739186595, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: f953ed64c75c041918f5af79e3977592, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: eb7d80e4a33a24d388b363c0b58f73c5, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 09f5f66c5219c4159a83b90d37fd5b02, type: 2}
+  m_TileSpriteArray:
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 2165567760651952934, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -4484168412711577263, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 8046459287365228126, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 1913047567609258352, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -7268892108697180036, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -4551713163088933829, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -4811761909817973084, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -8699733507832707795, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 8040738527934986686, guid: f65c256afaf4a486782f3e7ef4e58203, type: 3}
+  m_TileMatrixArray:
+  - m_RefCount: 9
+    m_Data:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_TileColorArray:
+  - m_RefCount: 9
+    m_Data: {r: 1, g: 1, b: 1, a: 1}
+  m_TileObjectToInstantiateArray: []
+  m_AnimationFrameRate: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Origin: {x: 0, y: 0, z: 0}
+  m_Size: {x: 19, y: 11, z: 1}
+  m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
+  m_TileOrientation: 0
+  m_TileOrientationMatrix:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
 --- !u!1 &2142883214
 GameObject:
   m_ObjectHideFlags: 0
@@ -59824,7 +60213,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cell (19,6)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -59855,67 +60244,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
   triggerCell: 0
-  color: 0
---- !u!1001 &9047864952185880079
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 9047864952339388667, guid: 1180aab2bab41401a9ff0c39274724d0, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c70a44c155aaa4447b5de76e75e9d0bb, type: 3}
-    - target: {fileID: 9047864952339388668, guid: 1180aab2bab41401a9ff0c39274724d0, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 9047864952339388668, guid: 1180aab2bab41401a9ff0c39274724d0, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 9047864952339388668, guid: 1180aab2bab41401a9ff0c39274724d0, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9047864952339388668, guid: 1180aab2bab41401a9ff0c39274724d0, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9047864952339388668, guid: 1180aab2bab41401a9ff0c39274724d0, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9047864952339388668, guid: 1180aab2bab41401a9ff0c39274724d0, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9047864952339388668, guid: 1180aab2bab41401a9ff0c39274724d0, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9047864952339388668, guid: 1180aab2bab41401a9ff0c39274724d0, type: 3}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 9047864952339388668, guid: 1180aab2bab41401a9ff0c39274724d0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9047864952339388668, guid: 1180aab2bab41401a9ff0c39274724d0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9047864952339388668, guid: 1180aab2bab41401a9ff0c39274724d0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9047864952339388670, guid: 1180aab2bab41401a9ff0c39274724d0, type: 3}
-      propertyPath: m_Name
-      value: RedBlob
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1180aab2bab41401a9ff0c39274724d0, type: 3}
+  isPortalCell: 0
+  portal: {fileID: 0}
