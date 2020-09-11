@@ -10,8 +10,14 @@ public class DialogueManager : MonoBehaviour
 
 	public Animator animator;
 
+	public Player player;
+	public CameraControl cameraControl;
+
     //private Player player;
 	private Queue<string> sentences;
+	private Queue<GameObject> focusTargets;
+
+	private Dialogue currentDialogue;
 
 	public bool finished;
 
@@ -19,12 +25,16 @@ public class DialogueManager : MonoBehaviour
     void Start()
     {
         sentences = new Queue<string>();
+		focusTargets = new Queue<GameObject>();
+
+		currentDialogue = null;
 		finished = false;
     }
 	
 	public void StartDialogue(Dialogue dialogue){
 		animator.SetBool("IsOpen", true);
 		finished = false;
+		currentDialogue = dialogue;
 
 		nameText.text = dialogue.name;
 
@@ -51,8 +61,9 @@ public class DialogueManager : MonoBehaviour
 
 		sentences.Clear();
 
-		foreach (string sentence in dialogue.sentences){
-			sentences.Enqueue(sentence);
+		foreach (SentenceElement sentenceElement in dialogue.sentenceElements){
+			sentences.Enqueue(sentenceElement.sentence);
+			focusTargets.Enqueue(sentenceElement.focusAt);
 		}
 
 		DisplayNextSentence();
@@ -62,11 +73,22 @@ public class DialogueManager : MonoBehaviour
 		//player.BlockMovement();
 		finished = false;
 		if(sentences.Count == 0){
+            if (currentDialogue.nextDialog != null)
+            {
+				Debug.Log("Displaying next dialog participant");
+				currentDialogue.nextDialog.TriggerDialogue();
+				return;
+			}
+			Debug.Log("Ending the dialog");
 			EndDialogue();
 			return;
 		}
 
 		string sentence = sentences.Dequeue();
+		GameObject focusTarget = focusTargets.Dequeue();
+
+		cameraControl.UpdateFollowTarget(focusTarget.transform);
+
 		StopAllCoroutines();
 		StartCoroutine(TypeSentence(sentence));
 		finished = false;
@@ -84,6 +106,7 @@ public class DialogueManager : MonoBehaviour
 
 	public void EndDialogue() {
 		animator.SetBool("IsOpen", false);
+		player.FocusOnActiveBlob();
 		finished = true;
 	}
 }

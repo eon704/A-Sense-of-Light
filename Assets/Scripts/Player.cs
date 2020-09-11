@@ -103,6 +103,11 @@ public class Player : MonoBehaviour
         cameraControl.UpdateFollowTarget(activeBlob.transform);
     }
 
+    public void FocusOnActiveBlob()
+    {
+        cameraControl.UpdateFollowTarget(activeBlob.transform);
+    }
+
     void CheckKey()
     {
         if (key == null)

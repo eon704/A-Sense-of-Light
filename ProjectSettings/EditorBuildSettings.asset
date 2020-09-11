@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RED.unity
     guid: 2f890488da01043478cf36cfecfbfb5c
+  - enabled: 1
+    path: Assets/Scenes/ORANGE.unity
+    guid: d56f113d2e15947c694df9b376ed1ace
   m_configObjects: {}

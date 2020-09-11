@@ -45,9 +45,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     name: Red Blob
-    sentences:
-    - Hi! I got lost, could you please help me?
-    - I am a Red Blob, and I have 6 sibling blobs lost somewhere within this world.
-      I need to find them. But I don't know how...
-    - Oh, look! Seems like there is a a key to our right, maybe it will help us to
-      get to the other areas and hopefully find my siblings!
+    color: 0
+    nextDialog: {fileID: 0}
+    sentenceElements: []
