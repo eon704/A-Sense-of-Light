@@ -67,6 +67,7 @@
     <Compile Include="Assets/Dialog System/DialogueTriger.cs" />
     <Compile Include="Assets/Scripts/Cell.cs" />
     <Compile Include="Assets/Scripts/Portal.cs" />
+    <Compile Include="Assets/Scripts/ColorButton.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

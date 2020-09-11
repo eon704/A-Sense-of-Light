@@ -6,7 +6,8 @@ public class Cell : MonoBehaviour
 {
 
     public bool isOccupied = false;
-    public bool triggerCell = false;
+    public bool isButtonCell = false; 
+    public ColorButton button;
 
     public bool isPortalCell = false;
     public Portal portal;
@@ -17,6 +18,13 @@ public class Cell : MonoBehaviour
             isPortalCell = false;
         else
             isPortalCell = true;
+
+
+        if (!button)
+            isButtonCell = false;
+        else
+            isButtonCell = true;
+
     }
 
 

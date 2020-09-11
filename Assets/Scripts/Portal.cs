@@ -14,21 +14,17 @@ public class Portal : MonoBehaviour
         activated = false;
     }
 
-    public bool CheckBlob(Blob blob)
+    public void CheckBlob(Blob blob)
     {
         if (Vector3.Equals(blob.transform.position, transform.position))
         {
             if (blob.color == activationColor)
             {
                 activated = true;
-                return true;
+                return;
             }
         }
-        return false;
-    }
-
-    public void Reset()
-    {
         activated = false;
     }
+
 }

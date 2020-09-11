@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6028264214497345310}
-  - component: {fileID: 6028264214497345311}
   - component: {fileID: 6028264214497345308}
+  - component: {fileID: 6028264214497345311}
   m_Layer: 0
   m_Name: OrangeBlob
   m_TagString: Untagged
@@ -32,21 +32,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6028264214497345311
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6028264214497345309}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d12faf73de9c4d60b6615bc71e41c44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  color: 0
-  x_coord: 4
-  y_coord: 6
 --- !u!212 &6028264214497345308
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -85,7 +70,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2105539253
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1e8cac5a058cd45079bd249a55bc62b6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -98,3 +83,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6028264214497345311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6028264214497345309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d12faf73de9c4d60b6615bc71e41c44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: 1
+  x_coord: 4
+  y_coord: 6

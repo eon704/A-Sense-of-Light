@@ -71,26 +71,41 @@ public class Grid : MonoBehaviour
         {
             Cell old_cell = cellArray[x, y];
             old_cell.UnsetOccupied();
-            if (old_cell.isPortalCell)
-            {
-                old_cell.portal.Reset();
-            }
 
             blob.transform.position = new Vector3(new_x, new_y, 0) + offset;
             blob.x_coord += h_units;
             blob.y_coord += v_units;
+
             Cell new_cell = cellArray[new_x, new_y];
             new_cell.SetOccupied();
 
-            if (new_cell.isPortalCell)
-            {
-                new_cell.portal.CheckBlob(blob);
-            }
-            CheckPortals();
+            CheckPortal(blob, old_cell);
+            CheckButton(blob, old_cell);
+
+            CheckPortal(blob, new_cell);
+            CheckButton(blob, new_cell);
+
+            CheckAllPortals();
         }
     }
 
-    void CheckPortals()
+    void CheckButton(Blob blob, Cell cell)
+    {
+        if (cell.isButtonCell)
+        {
+            cell.button.CheckBlob(blob);
+        }
+    }
+
+    void CheckPortal(Blob blob, Cell cell)
+    {
+        if (cell.isPortalCell)
+        {
+            cell.portal.CheckBlob(blob);
+        }
+    }
+
+    void CheckAllPortals()
     {
         foreach (Portal portal in portals)
         {

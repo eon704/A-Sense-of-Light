@@ -167,9 +167,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &9225235
 GameObject:
   m_ObjectHideFlags: 0
@@ -214,9 +215,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &14390643
 GameObject:
   m_ObjectHideFlags: 0
@@ -261,9 +263,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &17939945
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,9 +311,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &19276505
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,9 +359,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &26301037
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,9 +407,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &38039460
 GameObject:
   m_ObjectHideFlags: 0
@@ -449,9 +455,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &50756730
 GameObject:
   m_ObjectHideFlags: 0
@@ -496,9 +503,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &61111457
 GameObject:
   m_ObjectHideFlags: 0
@@ -543,9 +551,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &64444583
 GameObject:
   m_ObjectHideFlags: 0
@@ -590,9 +599,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &74975741
 GameObject:
   m_ObjectHideFlags: 0
@@ -637,9 +647,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &90116281
 GameObject:
   m_ObjectHideFlags: 0
@@ -684,9 +695,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &112720676
 GameObject:
   m_ObjectHideFlags: 0
@@ -731,9 +743,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 1
+  button: {fileID: 328373332}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &149769096
 GameObject:
   m_ObjectHideFlags: 0
@@ -778,9 +791,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!114 &157001458 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9047864952339388669, guid: 1180aab2bab41401a9ff0c39274724d0, type: 3}
@@ -836,9 +850,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &161602972
 GameObject:
   m_ObjectHideFlags: 0
@@ -883,9 +898,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &164713353
 GameObject:
   m_ObjectHideFlags: 0
@@ -930,9 +946,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &174155290
 GameObject:
   m_ObjectHideFlags: 0
@@ -977,9 +994,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &187201723
 GameObject:
   m_ObjectHideFlags: 0
@@ -1024,9 +1042,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &205024659
 GameObject:
   m_ObjectHideFlags: 0
@@ -1071,9 +1090,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &205408944
 GameObject:
   m_ObjectHideFlags: 0
@@ -1118,9 +1138,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &229481357
 GameObject:
   m_ObjectHideFlags: 0
@@ -1165,9 +1186,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &248531599
 GameObject:
   m_ObjectHideFlags: 0
@@ -1212,9 +1234,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &256607782
 GameObject:
   m_ObjectHideFlags: 0
@@ -1259,9 +1282,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &262320013
 GameObject:
   m_ObjectHideFlags: 0
@@ -1306,9 +1330,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &267876302
 GameObject:
   m_ObjectHideFlags: 0
@@ -1353,9 +1378,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &273695936
 GameObject:
   m_ObjectHideFlags: 0
@@ -1400,9 +1426,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &274389831
 GameObject:
   m_ObjectHideFlags: 0
@@ -1447,9 +1474,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &279695755
 GameObject:
   m_ObjectHideFlags: 0
@@ -1494,9 +1522,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &303824222
 GameObject:
   m_ObjectHideFlags: 0
@@ -1541,9 +1570,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &305182126
 GameObject:
   m_ObjectHideFlags: 0
@@ -1588,9 +1618,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &320384684
 GameObject:
   m_ObjectHideFlags: 0
@@ -1635,9 +1666,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &328241862
 GameObject:
   m_ObjectHideFlags: 0
@@ -1682,9 +1714,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &328373329
 GameObject:
   m_ObjectHideFlags: 0
@@ -1695,6 +1728,7 @@ GameObject:
   m_Component:
   - component: {fileID: 328373331}
   - component: {fileID: 328373330}
+  - component: {fileID: 328373332}
   m_Layer: 0
   m_Name: RedButton
   m_TagString: Untagged
@@ -1767,6 +1801,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &328373332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328373329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1c7cd36e100541a6bed5a7700853687, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activationColor: 0
+  activated: 0
+  activatable: {fileID: 1053735868}
+  cellsToActivate:
+  - {fileID: 1148587437}
+  - {fileID: 320384686}
+  - {fileID: 2003583247}
 --- !u!1 &330556844
 GameObject:
   m_ObjectHideFlags: 0
@@ -1811,9 +1864,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &372009930
 GameObject:
   m_ObjectHideFlags: 0
@@ -1858,9 +1912,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &372346603
 GameObject:
   m_ObjectHideFlags: 0
@@ -1905,9 +1960,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &375192326
 GameObject:
   m_ObjectHideFlags: 0
@@ -1952,9 +2008,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &378523968
 GameObject:
   m_ObjectHideFlags: 0
@@ -1999,9 +2056,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &394120863
 GameObject:
   m_ObjectHideFlags: 0
@@ -2046,9 +2104,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &410352269
 GameObject:
   m_ObjectHideFlags: 0
@@ -2093,9 +2152,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &441214894
 GameObject:
   m_ObjectHideFlags: 0
@@ -2140,9 +2200,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &442353966
 GameObject:
   m_ObjectHideFlags: 0
@@ -2187,9 +2248,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &446317242
 GameObject:
   m_ObjectHideFlags: 0
@@ -2234,9 +2296,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &457770719
 GameObject:
   m_ObjectHideFlags: 0
@@ -2281,9 +2344,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &459454694
 GameObject:
   m_ObjectHideFlags: 0
@@ -2328,9 +2392,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &471291068
 GameObject:
   m_ObjectHideFlags: 0
@@ -2375,9 +2440,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &471475712
 GameObject:
   m_ObjectHideFlags: 0
@@ -2422,9 +2488,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &476370444
 GameObject:
   m_ObjectHideFlags: 0
@@ -2469,9 +2536,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &498011617
 GameObject:
   m_ObjectHideFlags: 0
@@ -2516,9 +2584,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &514141202
 GameObject:
   m_ObjectHideFlags: 0
@@ -2563,9 +2632,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &518978620
 GameObject:
   m_ObjectHideFlags: 0
@@ -2643,9 +2713,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &527692850
 GameObject:
   m_ObjectHideFlags: 0
@@ -2854,9 +2925,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &563574463
 GameObject:
   m_ObjectHideFlags: 0
@@ -2901,9 +2973,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!114 &563993936 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 141632912761294814, guid: e6d6160c2bcb64681b6680e04b1f1f0c, type: 3}
@@ -2959,9 +3032,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!114 &590485284 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8371090097135029658, guid: 68f0d2d52c4a54520952eccab09f4a0d, type: 3}
@@ -3017,9 +3091,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &609762206
 GameObject:
   m_ObjectHideFlags: 0
@@ -3064,9 +3139,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &610798068
 GameObject:
   m_ObjectHideFlags: 0
@@ -3111,9 +3187,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &613815893
 GameObject:
   m_ObjectHideFlags: 0
@@ -3158,9 +3235,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &614060258
 GameObject:
   m_ObjectHideFlags: 0
@@ -3205,9 +3283,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &618954362
 GameObject:
   m_ObjectHideFlags: 0
@@ -3252,9 +3331,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &620189114
 GameObject:
   m_ObjectHideFlags: 0
@@ -3299,9 +3379,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &637496187
 GameObject:
   m_ObjectHideFlags: 0
@@ -3346,9 +3427,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &639652148
 GameObject:
   m_ObjectHideFlags: 0
@@ -3393,9 +3475,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &648481263
 GameObject:
   m_ObjectHideFlags: 0
@@ -3440,9 +3523,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &653283438
 GameObject:
   m_ObjectHideFlags: 0
@@ -3477,6 +3561,9 @@ MonoBehaviour:
   GridCell: {fileID: 888679953529862977, guid: 042d47d9802f4489caffc0119c44eb43, type: 3}
   offset: {x: 0.5, y: 0.5, z: 0}
   gameStatus: {fileID: 1770537793}
+  blobs:
+  - {fileID: 157001458}
+  - {fileID: 864141914}
 --- !u!4 &653283440
 Transform:
   m_ObjectHideFlags: 0
@@ -3825,9 +3912,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grid: {fileID: 653283439}
   activeBlob: {fileID: 157001458}
-  blobs:
-  - {fileID: 157001458}
-  - {fileID: 1913500116}
   cameraControl: {fileID: 677298181}
   key: {fileID: 1758338786}
   distanceToPickUp: 0.5
@@ -4099,9 +4183,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &699174655
 GameObject:
   m_ObjectHideFlags: 0
@@ -4146,9 +4231,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &713388034
 GameObject:
   m_ObjectHideFlags: 0
@@ -4193,9 +4279,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &725560060
 GameObject:
   m_ObjectHideFlags: 0
@@ -4240,9 +4327,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &728383527
 GameObject:
   m_ObjectHideFlags: 0
@@ -4253,6 +4341,7 @@ GameObject:
   m_Component:
   - component: {fileID: 728383529}
   - component: {fileID: 728383528}
+  - component: {fileID: 728383530}
   m_Layer: 0
   m_Name: OrangeButton
   m_TagString: Untagged
@@ -4325,6 +4414,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &728383530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728383527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1c7cd36e100541a6bed5a7700853687, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activationColor: 1
+  activated: 0
+  activatable: {fileID: 1170343559}
+  cellsToActivate:
+  - {fileID: 1543695042}
+  - {fileID: 1122455221}
+  - {fileID: 1650542029}
+  - {fileID: 773778636}
+  - {fileID: 61111459}
+  - {fileID: 1480579348}
 --- !u!1 &746386499
 GameObject:
   m_ObjectHideFlags: 0
@@ -4369,9 +4480,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &759036588
 GameObject:
   m_ObjectHideFlags: 0
@@ -4416,9 +4528,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!224 &761540320 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8371090096618081067, guid: 68f0d2d52c4a54520952eccab09f4a0d, type: 3}
@@ -4473,9 +4586,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1001 &774580447
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4589,9 +4703,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &782611743
 GameObject:
   m_ObjectHideFlags: 0
@@ -4636,9 +4751,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &788790813
 GameObject:
   m_ObjectHideFlags: 0
@@ -4683,9 +4799,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &790415525
 GameObject:
   m_ObjectHideFlags: 0
@@ -4730,9 +4847,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &816301009
 GameObject:
   m_ObjectHideFlags: 0
@@ -4777,9 +4895,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &824744917
 GameObject:
   m_ObjectHideFlags: 0
@@ -4824,9 +4943,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &839475298
 GameObject:
   m_ObjectHideFlags: 0
@@ -4871,9 +4991,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &850024717
 GameObject:
   m_ObjectHideFlags: 0
@@ -4918,9 +5039,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &858388414
 GameObject:
   m_ObjectHideFlags: 0
@@ -4965,9 +5087,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
+--- !u!114 &864141914 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6028264214497345311, guid: 321d1eeb175b146f9bce30f701ba32ff, type: 3}
+  m_PrefabInstance: {fileID: 1913500115}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d12faf73de9c4d60b6615bc71e41c44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &866844653
 GameObject:
   m_ObjectHideFlags: 0
@@ -5012,9 +5146,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &873013240
 GameObject:
   m_ObjectHideFlags: 0
@@ -5059,9 +5194,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &902906142
 GameObject:
   m_ObjectHideFlags: 0
@@ -5106,9 +5242,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &910666839
 GameObject:
   m_ObjectHideFlags: 0
@@ -5153,9 +5290,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &917934785
 GameObject:
   m_ObjectHideFlags: 0
@@ -5200,9 +5338,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &920730856
 GameObject:
   m_ObjectHideFlags: 0
@@ -5247,9 +5386,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &931846465
 GameObject:
   m_ObjectHideFlags: 0
@@ -5294,9 +5434,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &932010043
 GameObject:
   m_ObjectHideFlags: 0
@@ -5341,9 +5482,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &944430377
 GameObject:
   m_ObjectHideFlags: 0
@@ -5388,9 +5530,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &956844178
 GameObject:
   m_ObjectHideFlags: 0
@@ -5435,9 +5578,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &957916416
 GameObject:
   m_ObjectHideFlags: 0
@@ -5482,9 +5626,78 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
+--- !u!1001 &959735274
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4189180090735282368, guid: 4c804894c532348088a54b04fbc30ebf, type: 3}
+      propertyPath: m_Name
+      value: RedPortal
+      objectReference: {fileID: 0}
+    - target: {fileID: 4189180090735282370, guid: 4c804894c532348088a54b04fbc30ebf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 18.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4189180090735282370, guid: 4c804894c532348088a54b04fbc30ebf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4189180090735282370, guid: 4c804894c532348088a54b04fbc30ebf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4189180090735282370, guid: 4c804894c532348088a54b04fbc30ebf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4189180090735282370, guid: 4c804894c532348088a54b04fbc30ebf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4189180090735282370, guid: 4c804894c532348088a54b04fbc30ebf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4189180090735282370, guid: 4c804894c532348088a54b04fbc30ebf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4189180090735282370, guid: 4c804894c532348088a54b04fbc30ebf, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4189180090735282370, guid: 4c804894c532348088a54b04fbc30ebf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4189180090735282370, guid: 4c804894c532348088a54b04fbc30ebf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4189180090735282370, guid: 4c804894c532348088a54b04fbc30ebf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4c804894c532348088a54b04fbc30ebf, type: 3}
+--- !u!114 &959735275 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4189180090735282371, guid: 4c804894c532348088a54b04fbc30ebf, type: 3}
+  m_PrefabInstance: {fileID: 959735274}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 212dec2ff478a4f0283a260157930b4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &971305580
 GameObject:
   m_ObjectHideFlags: 0
@@ -5529,9 +5742,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &977227258
 GameObject:
   m_ObjectHideFlags: 0
@@ -5576,9 +5790,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1006617322
 GameObject:
   m_ObjectHideFlags: 0
@@ -5623,9 +5838,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1021274350
 GameObject:
   m_ObjectHideFlags: 0
@@ -5670,9 +5886,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1023523207
 GameObject:
   m_ObjectHideFlags: 0
@@ -5717,9 +5934,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1031270943
 GameObject:
   m_ObjectHideFlags: 3
@@ -5851,9 +6069,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1036823285
 GameObject:
   m_ObjectHideFlags: 0
@@ -5898,9 +6117,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1053735868
 GameObject:
   m_ObjectHideFlags: 0
@@ -6192,9 +6412,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 1
+  button: {fileID: 728383530}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1054526988
 GameObject:
   m_ObjectHideFlags: 0
@@ -6239,9 +6460,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1067390589
 GameObject:
   m_ObjectHideFlags: 0
@@ -6286,9 +6508,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1076633616
 GameObject:
   m_ObjectHideFlags: 0
@@ -6333,9 +6556,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1095376069
 GameObject:
   m_ObjectHideFlags: 0
@@ -6380,9 +6604,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1098571110
 GameObject:
   m_ObjectHideFlags: 0
@@ -6427,9 +6652,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1100609731
 GameObject:
   m_ObjectHideFlags: 0
@@ -6474,9 +6700,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  isButtonCell: 0
+  button: {fileID: 0}
+  isPortalCell: 1
+  portal: {fileID: 959735275}
 --- !u!1 &1108292891
 GameObject:
   m_ObjectHideFlags: 0
@@ -6521,9 +6748,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1121935685
 GameObject:
   m_ObjectHideFlags: 0
@@ -6568,9 +6796,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  isButtonCell: 0
+  button: {fileID: 0}
+  isPortalCell: 1
+  portal: {fileID: 1772213701}
 --- !u!1 &1122455219
 GameObject:
   m_ObjectHideFlags: 0
@@ -6615,9 +6844,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1130369004
 GameObject:
   m_ObjectHideFlags: 0
@@ -6662,9 +6892,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1131847610
 GameObject:
   m_ObjectHideFlags: 0
@@ -6709,9 +6940,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1133505849
 GameObject:
   m_ObjectHideFlags: 0
@@ -7219,9 +7451,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1146474622
 GameObject:
   m_ObjectHideFlags: 0
@@ -7266,9 +7499,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1148587435
 GameObject:
   m_ObjectHideFlags: 0
@@ -7313,9 +7547,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!114 &1148597111 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 141632912761294814, guid: e6d6160c2bcb64681b6680e04b1f1f0c, type: 3}
@@ -52352,9 +52587,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1165685519
 GameObject:
   m_ObjectHideFlags: 0
@@ -52399,9 +52635,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1170343559
 GameObject:
   m_ObjectHideFlags: 0
@@ -52774,9 +53011,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1195670391
 GameObject:
   m_ObjectHideFlags: 0
@@ -52821,9 +53059,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1203894538
 GameObject:
   m_ObjectHideFlags: 0
@@ -52868,9 +53107,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1203993545
 GameObject:
   m_ObjectHideFlags: 0
@@ -52915,9 +53155,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1220173776
 GameObject:
   m_ObjectHideFlags: 0
@@ -52962,9 +53203,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1231349373
 GameObject:
   m_ObjectHideFlags: 0
@@ -53009,9 +53251,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1233616453
 GameObject:
   m_ObjectHideFlags: 0
@@ -53056,9 +53299,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1237371532
 GameObject:
   m_ObjectHideFlags: 0
@@ -53103,9 +53347,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1238927704
 GameObject:
   m_ObjectHideFlags: 0
@@ -53150,9 +53395,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1246365426
 GameObject:
   m_ObjectHideFlags: 0
@@ -53197,9 +53443,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1251529288
 GameObject:
   m_ObjectHideFlags: 0
@@ -53210,6 +53457,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1251529290}
   - component: {fileID: 1251529289}
+  - component: {fileID: 1251529291}
   m_Layer: 0
   m_Name: RedButton 2
   m_TagString: Untagged
@@ -53282,6 +53530,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1251529291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251529288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1c7cd36e100541a6bed5a7700853687, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activationColor: 0
+  activated: 0
+  activatable: {fileID: 1133505849}
+  cellsToActivate:
+  - {fileID: 1131847612}
+  - {fileID: 1730454350}
+  - {fileID: 2116153908}
 --- !u!1 &1254965891
 GameObject:
   m_ObjectHideFlags: 0
@@ -53326,9 +53593,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1279293743
 GameObject:
   m_ObjectHideFlags: 0
@@ -53373,9 +53641,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1283559258
 GameObject:
   m_ObjectHideFlags: 0
@@ -53420,9 +53689,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1305717290
 GameObject:
   m_ObjectHideFlags: 0
@@ -53467,9 +53737,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1307174353
 GameObject:
   m_ObjectHideFlags: 0
@@ -53514,9 +53785,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1313018732
 GameObject:
   m_ObjectHideFlags: 0
@@ -53561,9 +53833,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1326402640
 GameObject:
   m_ObjectHideFlags: 0
@@ -53877,9 +54150,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1334877957
 GameObject:
   m_ObjectHideFlags: 0
@@ -53924,9 +54198,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1358496276
 GameObject:
   m_ObjectHideFlags: 0
@@ -53971,9 +54246,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1358711328
 GameObject:
   m_ObjectHideFlags: 0
@@ -54018,9 +54294,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1359893006
 GameObject:
   m_ObjectHideFlags: 0
@@ -54065,9 +54342,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1385541832
 GameObject:
   m_ObjectHideFlags: 0
@@ -54112,9 +54390,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1001 &1397986720
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54259,9 +54538,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1405586034
 GameObject:
   m_ObjectHideFlags: 0
@@ -54306,9 +54586,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1410955625
 GameObject:
   m_ObjectHideFlags: 0
@@ -54353,9 +54634,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1415624971
 GameObject:
   m_ObjectHideFlags: 0
@@ -54400,9 +54682,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1422703894
 GameObject:
   m_ObjectHideFlags: 0
@@ -54447,9 +54730,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1422779700
 GameObject:
   m_ObjectHideFlags: 0
@@ -54494,9 +54778,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1440500827
 GameObject:
   m_ObjectHideFlags: 0
@@ -54541,9 +54826,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!114 &1454209580 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 278993339697343763, guid: 1cc914b81f5bd44248b7e9d38ffc7e9a, type: 3}
@@ -54599,9 +54885,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1463127190
 GameObject:
   m_ObjectHideFlags: 0
@@ -54646,9 +54933,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1465649761
 GameObject:
   m_ObjectHideFlags: 0
@@ -54693,9 +54981,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1467997446
 GameObject:
   m_ObjectHideFlags: 0
@@ -54740,9 +55029,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1471511295
 GameObject:
   m_ObjectHideFlags: 0
@@ -54787,9 +55077,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1480579346
 GameObject:
   m_ObjectHideFlags: 0
@@ -54834,9 +55125,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1490656341
 GameObject:
   m_ObjectHideFlags: 0
@@ -54881,9 +55173,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1496893940
 GameObject:
   m_ObjectHideFlags: 0
@@ -55046,9 +55339,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1511496494
 GameObject:
   m_ObjectHideFlags: 0
@@ -55093,9 +55387,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1540892024
 GameObject:
   m_ObjectHideFlags: 0
@@ -55140,9 +55435,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1543342868
 GameObject:
   m_ObjectHideFlags: 0
@@ -55187,9 +55483,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1543695040
 GameObject:
   m_ObjectHideFlags: 0
@@ -55234,9 +55531,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1546061227
 GameObject:
   m_ObjectHideFlags: 0
@@ -55281,9 +55579,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1564641152
 GameObject:
   m_ObjectHideFlags: 0
@@ -55328,9 +55627,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1566152207
 GameObject:
   m_ObjectHideFlags: 0
@@ -55375,9 +55675,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1567696102
 GameObject:
   m_ObjectHideFlags: 0
@@ -55422,9 +55723,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1571847395
 GameObject:
   m_ObjectHideFlags: 0
@@ -55469,9 +55771,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1578763961
 GameObject:
   m_ObjectHideFlags: 0
@@ -55516,9 +55819,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1586962285
 GameObject:
   m_ObjectHideFlags: 0
@@ -55638,9 +55942,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1590366275
 GameObject:
   m_ObjectHideFlags: 0
@@ -55685,9 +55990,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1602860954
 GameObject:
   m_ObjectHideFlags: 0
@@ -57304,9 +57610,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1613401736
 GameObject:
   m_ObjectHideFlags: 0
@@ -57351,9 +57658,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1613409498
 GameObject:
   m_ObjectHideFlags: 0
@@ -57398,9 +57706,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1622099795
 GameObject:
   m_ObjectHideFlags: 0
@@ -57445,9 +57754,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1639078908
 GameObject:
   m_ObjectHideFlags: 0
@@ -57492,9 +57802,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1650542027
 GameObject:
   m_ObjectHideFlags: 0
@@ -57539,9 +57850,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1652264255
 GameObject:
   m_ObjectHideFlags: 0
@@ -57586,9 +57898,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1657266709
 GameObject:
   m_ObjectHideFlags: 0
@@ -57733,9 +58046,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1667101392
 GameObject:
   m_ObjectHideFlags: 0
@@ -57780,9 +58094,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1677002560
 GameObject:
   m_ObjectHideFlags: 0
@@ -57827,9 +58142,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1678158607
 GameObject:
   m_ObjectHideFlags: 0
@@ -57874,9 +58190,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1001 &1682466246
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58078,9 +58395,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1700342693
 GameObject:
   m_ObjectHideFlags: 0
@@ -58125,9 +58443,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1713851607
 GameObject:
   m_ObjectHideFlags: 0
@@ -58354,9 +58673,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1727099690
 GameObject:
   m_ObjectHideFlags: 0
@@ -58401,9 +58721,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1729893451
 GameObject:
   m_ObjectHideFlags: 0
@@ -58448,9 +58769,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1730454348
 GameObject:
   m_ObjectHideFlags: 0
@@ -58495,9 +58817,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1741238485
 GameObject:
   m_ObjectHideFlags: 0
@@ -58542,9 +58865,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1741564238
 GameObject:
   m_ObjectHideFlags: 0
@@ -58589,9 +58913,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1742626190
 GameObject:
   m_ObjectHideFlags: 0
@@ -58636,9 +58961,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1751123413
 GameObject:
   m_ObjectHideFlags: 0
@@ -58683,9 +59009,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1758338786
 GameObject:
   m_ObjectHideFlags: 0
@@ -58820,6 +59147,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1772213701 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3992067910244993273, guid: b6aacc3b7fced4d92a18e5576d4c0722, type: 3}
+  m_PrefabInstance: {fileID: 3992067911710825788}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 212dec2ff478a4f0283a260157930b4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1783307098
 GameObject:
   m_ObjectHideFlags: 0
@@ -58864,9 +59202,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1787720856
 GameObject:
   m_ObjectHideFlags: 0
@@ -58911,9 +59250,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1791890588
 GameObject:
   m_ObjectHideFlags: 0
@@ -58958,9 +59298,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1793699376
 GameObject:
   m_ObjectHideFlags: 0
@@ -59005,9 +59346,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1794707240
 GameObject:
   m_ObjectHideFlags: 0
@@ -59052,9 +59394,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1804526186
 GameObject:
   m_ObjectHideFlags: 0
@@ -59099,9 +59442,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1847838527
 GameObject:
   m_ObjectHideFlags: 0
@@ -59146,9 +59490,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1852261436
 GameObject:
   m_ObjectHideFlags: 0
@@ -59193,9 +59538,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1858482736
 GameObject:
   m_ObjectHideFlags: 0
@@ -59240,9 +59586,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1868886433
 GameObject:
   m_ObjectHideFlags: 0
@@ -59287,9 +59634,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1876871500
 GameObject:
   m_ObjectHideFlags: 0
@@ -59334,9 +59682,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!114 &1879381881 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8371090095879102312, guid: 68f0d2d52c4a54520952eccab09f4a0d, type: 3}
@@ -59392,9 +59741,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1902755615
 GameObject:
   m_ObjectHideFlags: 0
@@ -59439,9 +59789,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!4 &1904712208 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9047864952339388668, guid: 1180aab2bab41401a9ff0c39274724d0, type: 3}
@@ -59504,17 +59855,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 321d1eeb175b146f9bce30f701ba32ff, type: 3}
---- !u!114 &1913500116 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6028264214497345311, guid: 321d1eeb175b146f9bce30f701ba32ff, type: 3}
-  m_PrefabInstance: {fileID: 1913500115}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d12faf73de9c4d60b6615bc71e41c44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1937803027
 GameObject:
   m_ObjectHideFlags: 0
@@ -59559,9 +59899,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1951755505
 GameObject:
   m_ObjectHideFlags: 0
@@ -59606,9 +59947,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1967154358
 GameObject:
   m_ObjectHideFlags: 0
@@ -59653,9 +59995,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1984544312
 GameObject:
   m_ObjectHideFlags: 0
@@ -59700,9 +60043,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1985260563
 GameObject:
   m_ObjectHideFlags: 0
@@ -59747,9 +60091,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &1989164838
 GameObject:
   m_ObjectHideFlags: 0
@@ -59794,9 +60139,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1001 &1990991602
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59912,9 +60258,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &2002374159
 GameObject:
   m_ObjectHideFlags: 0
@@ -59959,9 +60306,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &2003583245
 GameObject:
   m_ObjectHideFlags: 0
@@ -60006,9 +60354,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &2003852241
 GameObject:
   m_ObjectHideFlags: 0
@@ -60053,9 +60402,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &2005339989
 GameObject:
   m_ObjectHideFlags: 0
@@ -60100,9 +60450,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 1
+  button: {fileID: 1251529291}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &2022829675
 GameObject:
   m_ObjectHideFlags: 0
@@ -60147,9 +60498,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &2026212190
 GameObject:
   m_ObjectHideFlags: 0
@@ -60194,9 +60546,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &2034983396
 GameObject:
   m_ObjectHideFlags: 0
@@ -60567,9 +60920,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &2052630716
 GameObject:
   m_ObjectHideFlags: 0
@@ -60614,9 +60968,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &2073296702
 GameObject:
   m_ObjectHideFlags: 0
@@ -60661,9 +61016,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &2076500517
 GameObject:
   m_ObjectHideFlags: 0
@@ -60708,9 +61064,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &2081864935
 GameObject:
   m_ObjectHideFlags: 0
@@ -60755,9 +61112,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &2086443005
 GameObject:
   m_ObjectHideFlags: 0
@@ -61029,9 +61387,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &2119676142
 GameObject:
   m_ObjectHideFlags: 0
@@ -61076,9 +61435,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &2122164199
 GameObject:
   m_ObjectHideFlags: 0
@@ -61123,9 +61483,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
 --- !u!1 &2145864652
 GameObject:
   m_ObjectHideFlags: 0
@@ -61170,9 +61531,67 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 1
+  isButtonCell: 0
+  button: {fileID: 0}
   isPortalCell: 0
-  triggerCell: 0
-  color: 0
+  portal: {fileID: 0}
+--- !u!1001 &3992067911710825788
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3992067910244993272, guid: b6aacc3b7fced4d92a18e5576d4c0722, type: 3}
+      propertyPath: m_Name
+      value: OrangePortal
+      objectReference: {fileID: 0}
+    - target: {fileID: 3992067910244993275, guid: b6aacc3b7fced4d92a18e5576d4c0722, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 17.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3992067910244993275, guid: b6aacc3b7fced4d92a18e5576d4c0722, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3992067910244993275, guid: b6aacc3b7fced4d92a18e5576d4c0722, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3992067910244993275, guid: b6aacc3b7fced4d92a18e5576d4c0722, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3992067910244993275, guid: b6aacc3b7fced4d92a18e5576d4c0722, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3992067910244993275, guid: b6aacc3b7fced4d92a18e5576d4c0722, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3992067910244993275, guid: b6aacc3b7fced4d92a18e5576d4c0722, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3992067910244993275, guid: b6aacc3b7fced4d92a18e5576d4c0722, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 3992067910244993275, guid: b6aacc3b7fced4d92a18e5576d4c0722, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3992067910244993275, guid: b6aacc3b7fced4d92a18e5576d4c0722, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3992067910244993275, guid: b6aacc3b7fced4d92a18e5576d4c0722, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b6aacc3b7fced4d92a18e5576d4c0722, type: 3}
 --- !u!1001 &9047864952185880079
 PrefabInstance:
   m_ObjectHideFlags: 0
